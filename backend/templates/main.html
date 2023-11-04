@@ -1,0 +1,82 @@
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVESTiWISE</title>
+    <link rel="icon" type="image/x-icon" href="{% static './assests/title.png' %}">
+    <link rel="stylesheet" href="{% static './css/main.css' %}">
+    <link rel="stylesheet" href="{% static './css/particle.css' %}">
+
+</head>
+<body>
+   <nav>
+    <div class="container navbar flex">
+        <a href="{% url 'home' %}">
+            <div class="left flex">
+                
+            <img src="{% static './assests/bglogo.png' %}" alt="">
+            <h3 class="main-brand">INVEST<span class="color">i</span>WISE</h3>
+            </div>
+        </a>
+        <div class="right">
+            <ul class="nav-link flex">
+                <li><a class="hover-link underline"href=""><i class="fa-solid fa-mug-saucer"></i> Buy us a Coffee</a></li>
+                <li><a  class="hover-link underline"href=""><i class="fa-solid fa-user-group"></i> About us</a></li>
+            </ul>
+        </div>
+    </div>
+   </nav>
+   <section class="main-search" id="master">
+    <div class="container search-cont ">
+        <div class="search-heading" >
+            <h1 class="main-search-head" id="head">INVEST<span class="search-heading-i">i</span>WISE</h1>
+        </div>
+        <div class="search-form">
+            <form method="POST" class="search-form-cont flex" action="{% url 'home' %}" id="myForm" name="forms1">
+                {% csrf_token %}
+                <input placeholder="Enter Company Name" id="inputtag"type="text" name="company" class="Search-input" required>
+                <button class="Sbtn" id="btn" onclick="validateForm()" ><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+        <div>
+            <h1 class="tagline" id="tline">Detailed analysis to make an <br> INFORMED INVESTOR</h1>
+        </div>
+    </div>
+   </section>
+   <div class="page-bg"></div>
+    <div class="animation-wrapper">
+      <div class="particle particle-1"></div>
+      <div class="particle particle-2"></div>
+    </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/b5a8447ad3.js" crossorigin="anonymous"></script>
+<script>
+    const headsec = document.getElementById('head');
+    const btnsec =  document.getElementById('btn');
+    const tagsec = document.getElementById('tline')
+    const form = document.getElementById('myForm');
+    const mainsec = document.getElementById("master")
+    function validateForm() {
+    var x = document.forms["forms1"]["company"].value;
+    if (x != "") {
+        headsec.classList.toggle("active");
+        myForm.classList.toggle("active")
+        tagsec.classList.toggle("active")
+        mainsec.classList.toggle("active")
+        const delay = 1100; // 2 seconds
+        form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        setTimeout(function() {
+            form.submit();
+        }, delay);
+        });
+        return false;
+    }
+}
+</script>
+</html>
