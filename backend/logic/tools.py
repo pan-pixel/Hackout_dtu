@@ -1,6 +1,10 @@
 import os
 from decouple import config
 
+import sys
+
+output_file = open("output.txt","w")
+
 
 os.environ['OPENAI_API_KEY'] = config('OPENAI_API_KEY')
 os.environ["SERPAPI_API_KEY"] = config('SERPAPI_API_KEY')
@@ -22,6 +26,9 @@ import docx
 from docx.shared import Cm
 from docx.shared import Pt
 import re
+
+
+sys.stdout = output_file
 
 
 llm = ChatOpenAI(
@@ -77,7 +84,7 @@ memory = ConversationBufferWindowMemory(
     return_messages=True
 )
 
-company = input("Enter company name : ")
+company = "zomato"
 data = company
 company = company.replace(" ", "+")
 url = "https://www.google.com/search?q=" + company + "+stock+business+today"
@@ -90,7 +97,7 @@ for link in links:
         final_link = link['href'].split("&")[0][7:]
 
 
-print(final_link)
+# print(final_link)
 
 # memory = ConversationBufferMemory(memory_key="chat_history")
 agent = initialize_agent(tools= tools, llm = llm, agent ='chat-conversational-react-description', verbose = True, max_iterations=5,
@@ -130,19 +137,22 @@ def find_numerical_value(string):
     numerical_values = [float(match) for match in matches]
     return numerical_values
 
-numerical_value = find_numerical_value(pe)
-pe = numerical_value[0]
+# numerical_value = find_numerical_value(pe)
+# pe = numerical_value[0]
 
-numerical_value = find_numerical_value(share_price)
-share_price = numerical_value[0]
+# numerical_value = find_numerical_value(share_price)
+# share_price = numerical_value[0]
 
-numerical_value = find_numerical_value(expected_earning)
-expected_earning = numerical_value[0]
+# numerical_value = find_numerical_value(expected_earning)
+# expected_earning = numerical_value[0]
 
 
-forward_pe =share_price/expected_earning
-price_target = pe/forward_pe
-# print(pe)
+# forward_pe =share_price/expected_earning
+# price_target = pe/forward_pe
+# # print(pe)
+
+
+
 # pe = pe.split("₹")
 # pe = float(pe[1])
 # share_price = share_price.split("₹")
@@ -168,100 +178,104 @@ compi_posi = agent.run(f"who are the competitors of {data} on {final_link}")
 
 value = agent.run(f"summarize all the ration analysis in bullet form of {data} on {final_link}")
 
+output_file.close()
 
 
 
 
 
-topic=data #company name
-Curent_price=share_price #curent price
-target_price=price_target #target price
-if target_price > share_price:
+# topic=data #company name
+# Curent_price=share_price #curent price
+# target_price=price_target #target price
+# if target_price > share_price:
 
-    recommendation="Buy"
-else:
-    recommendation="Sell"
+#     recommendation="Buy"
+# else:
+#     recommendation="Sell"
 
-company_info= company_info
-buisness_des= business_des
-invest_summ=invest_summ
-compi_posi=compi_posi
-valu=value
+# company_info= company_info
+# buisness_des= business_des
+# invest_summ=invest_summ
+# compi_posi=compi_posi
+# valu=value
 
 
-doc = docx.Document()
-section = doc.sections[0]
-section.page_width = docx.shared.Inches(8.27)  # 21cm
-section.page_height = docx.shared.Inches(11.69)  # 29.7cm
-sections = doc.sections
-margins=0.4   #Page Margin (in inche)
-for section in sections:
-    section.top_margin = docx.shared.Inches(margins)
-    section.bottom_margin = docx.shared.Inches(margins)
-    section.left_margin = docx.shared.Inches(margins)
-    section.right_margin = docx.shared.Inches(margins)
 
-heading = doc.add_heading(topic.upper(), level=1)
-heading.alignment = docx.enum.text.WD_ALIGN_PARAGRAPH.CENTER
-heading.style.font.size = Pt(28)
-heading.style.font.name = 'Times New Roman'
 
-table = doc.add_table(rows=2, cols=2)
-row = table.rows[0]
-cell1 = row.cells[0]
-cell1.text = "Current Price: " + str(Curent_price)
-cell2 = row.cells[1]
-cell2.text = "Recommendation By : "
 
-row = table.rows[1]
-cell1 = row.cells[0]
-cell1.text = "Target Price: " + target_price
-cell2 = row.cells[1]
-cell2.text = "P/E:" + recommendation
+# doc = docx.Document()
+# section = doc.sections[0]
+# section.page_width = docx.shared.Inches(8.27)  # 21cm
+# section.page_height = docx.shared.Inches(11.69)  # 29.7cm
+# sections = doc.sections
+# margins=0.4   #Page Margin (in inche)
+# for section in sections:
+#     section.top_margin = docx.shared.Inches(margins)
+#     section.bottom_margin = docx.shared.Inches(margins)
+#     section.left_margin = docx.shared.Inches(margins)
+#     section.right_margin = docx.shared.Inches(margins)
 
-title = doc.add_heading(level=4)
-title.text = "Document Title"
+# heading = doc.add_heading(topic.upper(), level=1)
+# heading.alignment = docx.enum.text.WD_ALIGN_PARAGRAPH.CENTER
+# heading.style.font.size = Pt(28)
+# heading.style.font.name = 'Times New Roman'
 
-paragraph = doc.add_paragraph(company_info)
-font = paragraph.style.font           
-font.name = 'Times New Roman'
-font.size = Pt(12)
+# table = doc.add_table(rows=2, cols=2)
+# row = table.rows[0]
+# cell1 = row.cells[0]
+# cell1.text = "Current Price: " + str(Curent_price)
+# cell2 = row.cells[1]
+# cell2.text = "Recommendation By : "
 
-title = doc.add_heading(level=4)
-title.text = "Buisness Description"
+# row = table.rows[1]
+# cell1 = row.cells[0]
+# cell1.text = "Target Price: " + target_price
+# cell2 = row.cells[1]
+# cell2.text = "P/E:" + recommendation
 
-paragraph = doc.add_paragraph(buisness_des)
-font = paragraph.style.font          
-font.name = 'Times New Roman'
-font.size = Pt(12)
+# title = doc.add_heading(level=4)
+# title.text = "Document Title"
 
-title = doc.add_heading(level=4)
-title.text = "Investment Summary"
+# paragraph = doc.add_paragraph(company_info)
+# font = paragraph.style.font           
+# font.name = 'Times New Roman'
+# font.size = Pt(12)
 
-paragraph = doc.add_paragraph(invest_summ)
-font = paragraph.style.font          
-font.name = 'Times New Roman'
-font.size = Pt(12)
+# title = doc.add_heading(level=4)
+# title.text = "Buisness Description"
 
-title = doc.add_heading(level=4)
-title.text = "Competetive Positioning"
+# paragraph = doc.add_paragraph(buisness_des)
+# font = paragraph.style.font          
+# font.name = 'Times New Roman'
+# font.size = Pt(12)
 
-paragraph = doc.add_paragraph(compi_posi)
-font = paragraph.style.font          
-font.name = 'Times New Roman'
-font.size = Pt(12)
+# title = doc.add_heading(level=4)
+# title.text = "Investment Summary"
 
-title = doc.add_heading(level=4)
-title.text = "Valuation"
+# paragraph = doc.add_paragraph(invest_summ)
+# font = paragraph.style.font          
+# font.name = 'Times New Roman'
+# font.size = Pt(12)
 
-paragraph = doc.add_paragraph(valu)
-font = paragraph.style.font          
-font.name = 'Times New Roman'
-font.size = Pt(12)
+# title = doc.add_heading(level=4)
+# title.text = "Competetive Positioning"
 
-print("report generated")
+# paragraph = doc.add_paragraph(compi_posi)
+# font = paragraph.style.font          
+# font.name = 'Times New Roman'
+# font.size = Pt(12)
 
-doc.save(topic+".docx")
+# title = doc.add_heading(level=4)
+# title.text = "Valuation"
+
+# paragraph = doc.add_paragraph(valu)
+# font = paragraph.style.font          
+# font.name = 'Times New Roman'
+# font.size = Pt(12)
+
+# print("report generated")
+
+# doc.save(topic+".docx")
 
 
 

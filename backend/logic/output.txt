@@ -1,0 +1,493 @@
+https://www.businesstoday.in/markets/company-stock/story/zomato-shares-surge-5-ahead-of-q2-results-herere-analyst-views-404443-2023-11-03
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m{
+    "action": "Wikipedia",
+    "action_input": "Zomato"
+}[0m
+Observation: [38;5;200m[1;3mPage: Zomato
+Summary: Zomato () is an Indian multinational restaurant aggregator and food delivery company. It was founded by Deepinder Goyal and Pankaj Chaddah in 2008. Zomato provides information, menus and user-reviews of restaurants as well as food delivery options from partner restaurants in more than 1,000 Indian cities and towns, as of 2022–23. Zomato rivals Swiggy in food delivery and hyperlocal space.
+
+
+
+Page: Blinkit
+Summary: Blink Commerce Private Limited, d/b/a Blinkit and formerly Grofers, is an Indian instant delivery service. It was founded in December 2013 and is based out of Gurgaon.Customers of the company use a mobile application to order groceries and essentials online. Blinkit's employees then secure the items from their warehouse and deliver the items to the consumer within 10 minutes. By November 2021, the company was delivering 1.25 lakh orders every day. Blinkit currently operates in more than 30 cities in India. As of 2021, the company has raised about US$630 million from investors including SoftBank, Tiger Global and Sequoia Capital.In 2022, Zomato acquired Blinkit for US$568 million in an all-stock deal.
+
+Page: Info Edge
+Summary: Info Edge is an Indian technology holding company which owns, operates and invests in internet-led businesses. The company's offerings include the flagship employment website Naukri.com, matrimonial website Jeevansathi.com, real estate classifieds platform 99Acres.com, and educational portal Shiksha.com, among others. As of 2018, more than 70 percent of the company's revenue came from Naukri.com.As of September 2020, it also held minority stakes in 23 online companies including two unicorns—the food delivery company Zomato (15.23% stake, as of July 2021) and the insurance aggregator Policybazaar (13.3% stake, as of November 2021).[0m
+Thought:[32;1m[1;3m{
+    "action": "Final Answer",
+    "action_input": "Zomato is an Indian multinational restaurant aggregator and food delivery company. It provides information, menus, and user-reviews of restaurants, as well as food delivery options from partner restaurants in more than 1,000 Indian cities and towns. Zomato rivals Swiggy in the food delivery and hyperlocal space."
+}[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m{
+    "action": "Wikipedia",
+    "action_input": "Zomato"
+}[0m
+Observation: [38;5;200m[1;3mPage: Zomato
+Summary: Zomato () is an Indian multinational restaurant aggregator and food delivery company. It was founded by Deepinder Goyal and Pankaj Chaddah in 2008. Zomato provides information, menus and user-reviews of restaurants as well as food delivery options from partner restaurants in more than 1,000 Indian cities and towns, as of 2022–23. Zomato rivals Swiggy in food delivery and hyperlocal space.
+
+
+
+Page: Blinkit
+Summary: Blink Commerce Private Limited, d/b/a Blinkit and formerly Grofers, is an Indian instant delivery service. It was founded in December 2013 and is based out of Gurgaon.Customers of the company use a mobile application to order groceries and essentials online. Blinkit's employees then secure the items from their warehouse and deliver the items to the consumer within 10 minutes. By November 2021, the company was delivering 1.25 lakh orders every day. Blinkit currently operates in more than 30 cities in India. As of 2021, the company has raised about US$630 million from investors including SoftBank, Tiger Global and Sequoia Capital.In 2022, Zomato acquired Blinkit for US$568 million in an all-stock deal.
+
+Page: Info Edge
+Summary: Info Edge is an Indian technology holding company which owns, operates and invests in internet-led businesses. The company's offerings include the flagship employment website Naukri.com, matrimonial website Jeevansathi.com, real estate classifieds platform 99Acres.com, and educational portal Shiksha.com, among others. As of 2018, more than 70 percent of the company's revenue came from Naukri.com.As of September 2020, it also held minority stakes in 23 online companies including two unicorns—the food delivery company Zomato (15.23% stake, as of July 2021) and the insurance aggregator Policybazaar (13.3% stake, as of November 2021).[0m
+Thought:[32;1m[1;3m{
+    "action": "Final Answer",
+    "action_input": "Zomato is an Indian multinational restaurant aggregator and food delivery company. It was founded by Deepinder Goyal and Pankaj Chaddah in 2008. Zomato provides information, menus, and user-reviews of restaurants, as well as food delivery options from partner restaurants in more than 1,000 Indian cities and towns. Zomato rivals Swiggy in the food delivery and hyperlocal space."
+}[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m{
+    "action": "Get Webpage",
+    "action_input": "https://www.businesstoday.in/markets/company-stock/story/zomato-shares-surge-5-ahead-of-q2-results-herere-analyst-views-404443-2023-11-03"
+}[0m
+Observation: [31;1m[1;3m   Zomato shares surge 5% ahead of Q2 results; here're analyst views   - BusinessToday                                   
+ 
+
+
+
+
+ 
+
+ 
+        
+  
+
+
+
+
+
+
+
+
+      Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           Immersives   UPSTART   ICC World Cup   Corporate   Petrol-Diesel   Weather   BT Bazaar                 BT-TR GCC Listing               Clear all  Search   COMPANIES No Data Found   INDICES ANALYSIS No Data Found   AMCs No Data Found   MUTUAL FUNDS No Data Found   NEWS No Data Found               Sign in   Subscribe            Home     Magazine    Cover Story   Editor's Note   Deep Dive   Interview   The Buzz      BT TV    Market Today   Easynomics   Drive Today   BT Explainer      Market Today    Indices   Trending Stocks   Stocks List   Stocks News   Share Market News   IPO Corner      Tech Today    Unbox Today   Authen Tech   Tech Deck   Tech Shorts        Money Today    Tax   Investment   Insurance   Tools & Calculator        Mutual Funds     Industry    Banking   IT   Auto   Energy   Commodities   Pharma   Real Estate   Telecom      BTShorts     Visual Stories     BT Reels     Immersives         UPSTART     ICC World Cup     Corporate     Petrol-Diesel     Weather     BT Bazaar                         BT-TR GCC Listing        events   Special   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                News MARKETS Company Stock Zomato shares surge 5% ahead of Q2 results; here're analyst views           Feedback    Zomato shares surge 5% ahead of Q2 results; here're analyst views    Zomato Q2: JM Financial said Zomato's revenue growth could be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates.            Amit Mudgill   Updated Nov 03, 2023, 1:35 PM IST                                  Zomato may report 57 per cent YoY jump in net sales at Rs 2,607 crore, Kotak Institutional Equities said. This brokerage expects Ebitda at Rs 9.9 crore.    
+Shares of Zomato Ltd climbed nearly 5 per cent in Friday's trade ahead of teh food aggregator's September quarter earnings. The stock rose 4.83 per cent to hit a high of Rs 112.70 on BSE, with a total of 28.55 lakh Zomato shares changing hands so far compared with a two-week average of 34.63 lakh shares.
+
+JM Financial in its preview note expected Zomato's revenue growth to be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates. The domestic brokerage is expecting the contribution margin to come in at 6.8 per cent of average order value (AOV) compared with 6.4 per cent in Q1, with the assumption that the improvement will be purely take-rate driven. Adjusted Ebitda margin expansion, it said, could be limited to 30 basis points sequentially, thanks to salary hikes in July. 
+
+"In BlinkIt, we expect very strong sequential GOV growth of 17 epr cent led by robust increase in order. We also expect take-rates to improve to 19.3 per cent from 17.9 per cent in Q1, driven by ad income - that in turn should help the company achieve contribution level profitability for the very fir[0m
+Thought:[32;1m[1;3m{
+    "action": "Final Answer",
+    "action_input": "The Price-to-Earnings (P/E) ratio of Zomato is not mentioned in the provided article. It focuses on Zomato's revenue growth, gross order value, and analyst views ahead of its Q2 results."
+}[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m{
+    "action": "Get Webpage",
+    "action_input": "https://www.businesstoday.in/markets/company-stock/story/zomato-shares-surge-5-ahead-of-q2-results-herere-analyst-views-404443-2023-11-03"
+}[0m
+Observation: [31;1m[1;3m   Zomato shares surge 5% ahead of Q2 results; here're analyst views   - BusinessToday                                   
+ 
+
+
+
+
+ 
+
+ 
+        
+  
+
+
+
+
+
+
+
+
+      Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           Immersives   UPSTART   ICC World Cup   Corporate   Petrol-Diesel   Weather   BT Bazaar                 BT-TR GCC Listing               Clear all  Search   COMPANIES No Data Found   INDICES ANALYSIS No Data Found   AMCs No Data Found   MUTUAL FUNDS No Data Found   NEWS No Data Found               Sign in   Subscribe            Home     Magazine    Cover Story   Editor's Note   Deep Dive   Interview   The Buzz      BT TV    Market Today   Easynomics   Drive Today   BT Explainer      Market Today    Indices   Trending Stocks   Stocks List   Stocks News   Share Market News   IPO Corner      Tech Today    Unbox Today   Authen Tech   Tech Deck   Tech Shorts        Money Today    Tax   Investment   Insurance   Tools & Calculator        Mutual Funds     Industry    Banking   IT   Auto   Energy   Commodities   Pharma   Real Estate   Telecom      BTShorts     Visual Stories     BT Reels     Immersives         UPSTART     ICC World Cup     Corporate     Petrol-Diesel     Weather     BT Bazaar                         BT-TR GCC Listing        events   Special   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                News MARKETS Company Stock Zomato shares surge 5% ahead of Q2 results; here're analyst views           Feedback    Zomato shares surge 5% ahead of Q2 results; here're analyst views    Zomato Q2: JM Financial said Zomato's revenue growth could be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates.            Amit Mudgill   Updated Nov 03, 2023, 1:35 PM IST                                  Zomato may report 57 per cent YoY jump in net sales at Rs 2,607 crore, Kotak Institutional Equities said. This brokerage expects Ebitda at Rs 9.9 crore.    
+Shares of Zomato Ltd climbed nearly 5 per cent in Friday's trade ahead of teh food aggregator's September quarter earnings. The stock rose 4.83 per cent to hit a high of Rs 112.70 on BSE, with a total of 28.55 lakh Zomato shares changing hands so far compared with a two-week average of 34.63 lakh shares.
+
+JM Financial in its preview note expected Zomato's revenue growth to be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates. The domestic brokerage is expecting the contribution margin to come in at 6.8 per cent of average order value (AOV) compared with 6.4 per cent in Q1, with the assumption that the improvement will be purely take-rate driven. Adjusted Ebitda margin expansion, it said, could be limited to 30 basis points sequentially, thanks to salary hikes in July. 
+
+"In BlinkIt, we expect very strong sequential GOV growth of 17 epr cent led by robust increase in order. We also expect take-rates to improve to 19.3 per cent from 17.9 per cent in Q1, driven by ad income - that in turn should help the company achieve contribution level profitability for the very fir[0m
+Thought:[32;1m[1;3m{
+    "action": "Final Answer",
+    "action_input": "The stock price of Zomato is not mentioned in the provided article."
+}[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m{
+    "action": "Get Webpage",
+    "action_input": "https://www.businesstoday.in/markets/company-stock/story/zomato-shares-surge-5-ahead-of-q2-results-herere-analyst-views-404443-2023-11-03"
+}[0m
+Observation: [31;1m[1;3m   Zomato shares surge 5% ahead of Q2 results; here're analyst views   - BusinessToday                                   
+ 
+
+
+
+
+ 
+
+ 
+        
+  
+
+
+
+
+
+
+
+
+      Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           Immersives   UPSTART   ICC World Cup   Corporate   Petrol-Diesel   Weather   BT Bazaar                 BT-TR GCC Listing               Clear all  Search   COMPANIES No Data Found   INDICES ANALYSIS No Data Found   AMCs No Data Found   MUTUAL FUNDS No Data Found   NEWS No Data Found               Sign in   Subscribe            Home     Magazine    Cover Story   Editor's Note   Deep Dive   Interview   The Buzz      BT TV    Market Today   Easynomics   Drive Today   BT Explainer      Market Today    Indices   Trending Stocks   Stocks List   Stocks News   Share Market News   IPO Corner      Tech Today    Unbox Today   Authen Tech   Tech Deck   Tech Shorts        Money Today    Tax   Investment   Insurance   Tools & Calculator        Mutual Funds     Industry    Banking   IT   Auto   Energy   Commodities   Pharma   Real Estate   Telecom      BTShorts     Visual Stories     BT Reels     Immersives         UPSTART     ICC World Cup     Corporate     Petrol-Diesel     Weather     BT Bazaar                         BT-TR GCC Listing        events   Special   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                News MARKETS Company Stock Zomato shares surge 5% ahead of Q2 results; here're analyst views           Feedback    Zomato shares surge 5% ahead of Q2 results; here're analyst views    Zomato Q2: JM Financial said Zomato's revenue growth could be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates.            Amit Mudgill   Updated Nov 03, 2023, 1:35 PM IST                                  Zomato may report 57 per cent YoY jump in net sales at Rs 2,607 crore, Kotak Institutional Equities said. This brokerage expects Ebitda at Rs 9.9 crore.    
+Shares of Zomato Ltd climbed nearly 5 per cent in Friday's trade ahead of teh food aggregator's September quarter earnings. The stock rose 4.83 per cent to hit a high of Rs 112.70 on BSE, with a total of 28.55 lakh Zomato shares changing hands so far compared with a two-week average of 34.63 lakh shares.
+
+JM Financial in its preview note expected Zomato's revenue growth to be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates. The domestic brokerage is expecting the contribution margin to come in at 6.8 per cent of average order value (AOV) compared with 6.4 per cent in Q1, with the assumption that the improvement will be purely take-rate driven. Adjusted Ebitda margin expansion, it said, could be limited to 30 basis points sequentially, thanks to salary hikes in July. 
+
+"In BlinkIt, we expect very strong sequential GOV growth of 17 epr cent led by robust increase in order. We also expect take-rates to improve to 19.3 per cent from 17.9 per cent in Q1, driven by ad income - that in turn should help the company achieve contribution level profitability for the very fir[0m
+Thought:[32;1m[1;3m{
+    "action": "Final Answer",
+    "action_input": "The return on equity (ROE) of Zomato is not mentioned in the provided article."
+}[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m{
+    "action": "Search",
+    "action_input": "current status of Zomato"
+}[0m
+Observation: [36;1m[1;3mZomato stock which closed nearly 10% higher at Rs 117.90, also crossed a market cap of Rs 1 lakh crore. A ...More. Zomato stock which closed nearly 10% ...[0m
+Thought:[32;1m[1;3m{
+    "action": "Final Answer",
+    "action_input": "The current status of Zomato is that its stock closed nearly 10% higher at Rs 117.90 and crossed a market cap of Rs 1 lakh crore."
+}[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m{
+    "action": "Get Webpage",
+    "action_input": "https://www.businesstoday.in/markets/company-stock/story/zomato-shares-surge-5-ahead-of-q2-results-herere-analyst-views-404443-2023-11-03"
+}[0m
+Observation: [31;1m[1;3m   Zomato shares surge 5% ahead of Q2 results; here're analyst views   - BusinessToday                                   
+ 
+
+
+
+
+ 
+
+ 
+        
+  
+
+
+
+
+
+
+
+
+      Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           Immersives   UPSTART   ICC World Cup   Corporate   Petrol-Diesel   Weather   BT Bazaar                 BT-TR GCC Listing               Clear all  Search   COMPANIES No Data Found   INDICES ANALYSIS No Data Found   AMCs No Data Found   MUTUAL FUNDS No Data Found   NEWS No Data Found               Sign in   Subscribe            Home     Magazine    Cover Story   Editor's Note   Deep Dive   Interview   The Buzz      BT TV    Market Today   Easynomics   Drive Today   BT Explainer      Market Today    Indices   Trending Stocks   Stocks List   Stocks News   Share Market News   IPO Corner      Tech Today    Unbox Today   Authen Tech   Tech Deck   Tech Shorts        Money Today    Tax   Investment   Insurance   Tools & Calculator        Mutual Funds     Industry    Banking   IT   Auto   Energy   Commodities   Pharma   Real Estate   Telecom      BTShorts     Visual Stories     BT Reels     Immersives         UPSTART     ICC World Cup     Corporate     Petrol-Diesel     Weather     BT Bazaar                         BT-TR GCC Listing        events   Special   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                News MARKETS Company Stock Zomato shares surge 5% ahead of Q2 results; here're analyst views           Feedback    Zomato shares surge 5% ahead of Q2 results; here're analyst views    Zomato Q2: JM Financial said Zomato's revenue growth could be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates.            Amit Mudgill   Updated Nov 03, 2023, 1:35 PM IST                                  Zomato may report 57 per cent YoY jump in net sales at Rs 2,607 crore, Kotak Institutional Equities said. This brokerage expects Ebitda at Rs 9.9 crore.    
+Shares of Zomato Ltd climbed nearly 5 per cent in Friday's trade ahead of teh food aggregator's September quarter earnings. The stock rose 4.83 per cent to hit a high of Rs 112.70 on BSE, with a total of 28.55 lakh Zomato shares changing hands so far compared with a two-week average of 34.63 lakh shares.
+
+JM Financial in its preview note expected Zomato's revenue growth to be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates. The domestic brokerage is expecting the contribution margin to come in at 6.8 per cent of average order value (AOV) compared with 6.4 per cent in Q1, with the assumption that the improvement will be purely take-rate driven. Adjusted Ebitda margin expansion, it said, could be limited to 30 basis points sequentially, thanks to salary hikes in July. 
+
+"In BlinkIt, we expect very strong sequential GOV growth of 17 epr cent led by robust increase in order. We also expect take-rates to improve to 19.3 per cent from 17.9 per cent in Q1, driven by ad income - that in turn should help the company achieve contribution level profitability for the very fir[0m
+Thought:[32;1m[1;3m{
+    "action": "Final Answer",
+    "action_input": "Here is a summary of the data regarding Zomato from the provided article:\n\n- Zomato shares surged nearly 5% ahead of Q2 results.\n- JM Financial expects Zomato's revenue growth to be higher than its gross order value (GOV) growth at 19.1%.\n- Kotak Institutional Equities predicts a 57% YoY jump in net sales at Rs 2,607 crore.\n- The stock reached a high of Rs 112.70 on BSE.\n- JM Financial expects the contribution margin to be 6.8% of average order value (AOV).\n- Adjusted Ebitda margin expansion could be limited to 30 basis points sequentially due to salary hikes in July.\n- The company is expected to achieve contribution level profitability for the first time."
+}[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m{
+    "action": "Get Webpage",
+    "action_input": "https://www.businesstoday.in/markets/company-stock/story/zomato-shares-surge-5-ahead-of-q2-results-herere-analyst-views-404443-2023-11-03"
+}[0m
+Observation: [31;1m[1;3m   Zomato shares surge 5% ahead of Q2 results; here're analyst views   - BusinessToday                                   
+ 
+
+
+
+
+ 
+
+ 
+        
+  
+
+
+
+
+
+
+
+
+      Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           Immersives   UPSTART   ICC World Cup   Corporate   Petrol-Diesel   Weather   BT Bazaar                 BT-TR GCC Listing               Clear all  Search   COMPANIES No Data Found   INDICES ANALYSIS No Data Found   AMCs No Data Found   MUTUAL FUNDS No Data Found   NEWS No Data Found               Sign in   Subscribe            Home     Magazine    Cover Story   Editor's Note   Deep Dive   Interview   The Buzz      BT TV    Market Today   Easynomics   Drive Today   BT Explainer      Market Today    Indices   Trending Stocks   Stocks List   Stocks News   Share Market News   IPO Corner      Tech Today    Unbox Today   Authen Tech   Tech Deck   Tech Shorts        Money Today    Tax   Investment   Insurance   Tools & Calculator        Mutual Funds     Industry    Banking   IT   Auto   Energy   Commodities   Pharma   Real Estate   Telecom      BTShorts     Visual Stories     BT Reels     Immersives         UPSTART     ICC World Cup     Corporate     Petrol-Diesel     Weather     BT Bazaar                         BT-TR GCC Listing        events   Special   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                News MARKETS Company Stock Zomato shares surge 5% ahead of Q2 results; here're analyst views           Feedback    Zomato shares surge 5% ahead of Q2 results; here're analyst views    Zomato Q2: JM Financial said Zomato's revenue growth could be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates.            Amit Mudgill   Updated Nov 03, 2023, 1:35 PM IST                                  Zomato may report 57 per cent YoY jump in net sales at Rs 2,607 crore, Kotak Institutional Equities said. This brokerage expects Ebitda at Rs 9.9 crore.    
+Shares of Zomato Ltd climbed nearly 5 per cent in Friday's trade ahead of teh food aggregator's September quarter earnings. The stock rose 4.83 per cent to hit a high of Rs 112.70 on BSE, with a total of 28.55 lakh Zomato shares changing hands so far compared with a two-week average of 34.63 lakh shares.
+
+JM Financial in its preview note expected Zomato's revenue growth to be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates. The domestic brokerage is expecting the contribution margin to come in at 6.8 per cent of average order value (AOV) compared with 6.4 per cent in Q1, with the assumption that the improvement will be purely take-rate driven. Adjusted Ebitda margin expansion, it said, could be limited to 30 basis points sequentially, thanks to salary hikes in July. 
+
+"In BlinkIt, we expect very strong sequential GOV growth of 17 epr cent led by robust increase in order. We also expect take-rates to improve to 19.3 per cent from 17.9 per cent in Q1, driven by ad income - that in turn should help the company achieve contribution level profitability for the very fir[0m
+Thought:[32;1m[1;3m{
+    "action": "Final Answer",
+    "action_input": "The competitors of Zomato are not mentioned in the provided article."
+}[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m{
+    "action": "Get Webpage",
+    "action_input": "https://www.businesstoday.in/markets/company-stock/story/zomato-shares-surge-5-ahead-of-q2-results-herere-analyst-views-404443-2023-11-03"
+}[0m
+Observation: [31;1m[1;3m   Zomato shares surge 5% ahead of Q2 results; here're analyst views   - BusinessToday                                   
+ 
+
+
+
+
+ 
+
+ 
+        
+  
+
+
+
+
+
+
+
+
+      Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           Immersives   UPSTART   ICC World Cup   Corporate   Petrol-Diesel   Weather   BT Bazaar                 BT-TR GCC Listing               Clear all  Search   COMPANIES No Data Found   INDICES ANALYSIS No Data Found   AMCs No Data Found   MUTUAL FUNDS No Data Found   NEWS No Data Found               Sign in   Subscribe            Home     Magazine    Cover Story   Editor's Note   Deep Dive   Interview   The Buzz      BT TV    Market Today   Easynomics   Drive Today   BT Explainer      Market Today    Indices   Trending Stocks   Stocks List   Stocks News   Share Market News   IPO Corner      Tech Today    Unbox Today   Authen Tech   Tech Deck   Tech Shorts        Money Today    Tax   Investment   Insurance   Tools & Calculator        Mutual Funds     Industry    Banking   IT   Auto   Energy   Commodities   Pharma   Real Estate   Telecom      BTShorts     Visual Stories     BT Reels     Immersives         UPSTART     ICC World Cup     Corporate     Petrol-Diesel     Weather     BT Bazaar                         BT-TR GCC Listing        events   Special   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                News MARKETS Company Stock Zomato shares surge 5% ahead of Q2 results; here're analyst views           Feedback    Zomato shares surge 5% ahead of Q2 results; here're analyst views    Zomato Q2: JM Financial said Zomato's revenue growth could be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates.            Amit Mudgill   Updated Nov 03, 2023, 1:35 PM IST                                  Zomato may report 57 per cent YoY jump in net sales at Rs 2,607 crore, Kotak Institutional Equities said. This brokerage expects Ebitda at Rs 9.9 crore.    
+Shares of Zomato Ltd climbed nearly 5 per cent in Friday's trade ahead of teh food aggregator's September quarter earnings. The stock rose 4.83 per cent to hit a high of Rs 112.70 on BSE, with a total of 28.55 lakh Zomato shares changing hands so far compared with a two-week average of 34.63 lakh shares.
+
+JM Financial in its preview note expected Zomato's revenue growth to be higher than its gross order value or (GOV) growth at 19.1 per cent amid an improvement in take-rates. The domestic brokerage is expecting the contribution margin to come in at 6.8 per cent of average order value (AOV) compared with 6.4 per cent in Q1, with the assumption that the improvement will be purely take-rate driven. Adjusted Ebitda margin expansion, it said, could be limited to 30 basis points sequentially, thanks to salary hikes in July. 
+
+"In BlinkIt, we expect very strong sequential GOV growth of 17 epr cent led by robust increase in order. We also expect take-rates to improve to 19.3 per cent from 17.9 per cent in Q1, driven by ad income - that in turn should help the company achieve contribution level profitability for the very fir[0m
+Thought:[32;1m[1;3m{
+    "action": "Final Answer",
+    "action_input": "Here is a summary of the ratio analysis for Zomato:\n- JM Financial expects Zomato's revenue growth to be higher than its gross order value (GOV) growth at 19.1%.\n- Kotak Institutional Equities predicts a 57% YoY jump in net sales at Rs 2,607 crore.\n- JM Financial expects the contribution margin to be 6.8% of average order value (AOV).\n- Adjusted Ebitda margin expansion could be limited to 30 basis points sequentially due to salary hikes in July.\n- The company is expected to achieve contribution level profitability for the first time."
+}[0m
+
+[1m> Finished chain.[0m

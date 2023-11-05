@@ -121,6 +121,7 @@ nav{
     margin: var(--padding-inline);
 }
 .search-form-cont{
+    position: relative;
     width: 100%;
     border-radius: var(--search-border-radius);
     background-color: white;
@@ -239,14 +240,21 @@ nav{
     }
   }
   
-.loading{
-    display: none;
+
+
+.loading--hidden{
+    opacity: 0;
+    visibility: none;
 }
+/* .final-results{
+    display: none;
+} */
+
+
 /* pdf viewer */
 .pdf-viewer{
    position: relative;
     z-index: 9;
-    /* display: none; */
 }
 .pdf-viewer object{
    padding-top: 10rem;
@@ -258,9 +266,9 @@ nav{
     justify-content: space-between;
     margin-top: 50px;
 }
-.cards .senti{
+/* .cards .senti{
     display: none;
-}
+} */
 .card{
     width: 30%;
     padding: 20px;
