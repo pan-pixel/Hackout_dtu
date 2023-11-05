@@ -234,3 +234,12 @@ nav{
         top: 5%;
     }
 }
+
+.loading-bar{
+    opacity: 0;
+    visibility: 0;
+}
+.loading-bar.active{
+    opacity: 1;
+    visibility: 1;
+}

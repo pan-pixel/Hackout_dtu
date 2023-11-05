@@ -1,11 +1,12 @@
 from pygooglenews import GoogleNews
 import openai
 import datetime
+from decouple import config
 
-API_KEY = "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"
-openai.api_key = API_KEY
 
-company = input("Enter company name : ")
+openai.api_key = config('OPENAI_API_KEY')
+
+company = "tcs"
 
 def get_news(company):
     gn = GoogleNews()

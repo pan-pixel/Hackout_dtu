@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="{% static './assests/title.png' %}">
     <link rel="stylesheet" href="{% static './css/main.css' %}">
     <link rel="stylesheet" href="{% static './css/particle.css' %}">
+    <link rel="stylesheet" href="{% static './css/loading.css' %}">
 
 </head>
 <body>
@@ -47,6 +48,9 @@
         </div>
     </div>
    </section>
+   <section class="loading-bar" id="loading-bar">
+    <div class="loading lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+   </section>
    <div class="page-bg"></div>
     <div class="animation-wrapper">
       <div class="particle particle-1"></div>
@@ -60,7 +64,8 @@
     const btnsec =  document.getElementById('btn');
     const tagsec = document.getElementById('tline')
     const form = document.getElementById('myForm');
-    const mainsec = document.getElementById("master")
+    const mainsec = document.getElementById("master");
+    const loadbar = document.getElementById("loading-bar");
     function validateForm() {
     var x = document.forms["forms1"]["company"].value;
     if (x != "") {
@@ -68,6 +73,7 @@
         myForm.classList.toggle("active")
         tagsec.classList.toggle("active")
         mainsec.classList.toggle("active")
+        loadbar.classList.toggle("active")
         const delay = 1100; // 2 seconds
         form.addEventListener('submit', function(event) {
         event.preventDefault();

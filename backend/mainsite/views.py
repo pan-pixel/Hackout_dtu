@@ -3,7 +3,8 @@ from time import sleep
 import os
 from decouple import config
 import openai
-
+import requests
+import json
 import sys
 
 
@@ -63,9 +64,9 @@ def clean():
 
 def gpt_format(company):
     info = clean()
-    # prompt = "I am giving you basic details and current stock and investment information about TCS, format it quite well with written content separate and all the statics properly laid out and each of them also explained in detail with respect to company.For the written material make sure to elaborate about the company as much as you can, you are free to also add initaitves and other details about the company which you think are impacting its performance in long term.  You are completely free to use language of your own and hence make it quite elaborated and professionaly written as it is to be used as content for professional equity investment report, write a minimum of three pages as per the above instructions and make sure to add headings. Here are the details - " + info
+    # prompt = "I am giving you basic details and current stock and investment information about"+company+", format it quite well with written content separate and all the statics properly laid out and each of them also explained in detail with respect to company.For the written material make sure to elaborate about the company as much as you can, you are free to also add initaitves and other details about the company which you think are impacting its performance in long term.  You are completely free to use language of your own and hence make it quite elaborated and professionaly written as it is to be used as content for professional equity investment report, write a minimum of three pages as per the above instructions and make sure to add headings. Here are the details - " + info
     # prompt = "I would like you to provide a well-structured and comprehensive report on Tata Consultancy Services (TCS), encompassing essential details, current stock and investment information, along with in-depth explanations of each statistic in the context of the company. List all the numeric values together as well. In addition, please elaborate on the company's background and operations, and feel free to include information about key initiatives and factors that may influence its long-term performance. You have the creative freedom to use professional language and ensure the report is elaborative and suitable for a professional equity investment report. Your report should be at least three pages in length, and don't forget to include clear headings for each section, amd before and after each heading add '&' for clearity. Here are the details - " + info
-    prompt = "I would like you to provide a well-structured and comprehensive report on " + company + ", encompassing essential details, current stock and investment information, along with in-depth explanations of each statistic in the context of the company. List all the numeric values together as well. In addition, please elaborate on the company's background and operations, and feel free to include information about key initiatives and factors that may influence its long-term performance. You have the creative freedom to use professional language and ensure the report is elaborative and suitable for a professional equity investment report. Your report should be at least three pages in length, and don't forget to include clear headings for each section, to mark starting of the heading use '~' Here are the details - " + info
+    prompt = "I would like you to provide a well-structured and comprehensive report on " + company + ", encompassing essential details, current stock and investment information, along with in-depth explanations of each statistic in the context of the company. List all the numeric values together as well. In addition, please elaborate on the company's background and operations, and feel free to include information about key initiatives and factors that may influence its long-term performance. You have the creative freedom to use professional language and ensure the report is elaborative and suitable for a professional equity investment report. Your report should be at least three pages in length, and don't forget to include clear headings for each section, to mark starting of the heading use '~' Here are the details - " + info + "Make sure to add the stock symbol at the end, the output of stock symbol shall be like ~stock_symbol, that's it nothing else"
     response = openai.ChatCompletion.create(
         model = 'gpt-3.5-turbo',
         messages=[
@@ -80,8 +81,6 @@ def gpt_format(company):
     final = splitData[1:]
     return final
     
-
-
 
 llm = ChatOpenAI(
     temperature = 0,
@@ -232,12 +231,26 @@ def initial_setup(doc, topic):
     heading.style.font.size = Pt(28)
     heading.style.font.name = 'Times New Roman'
 
-def main_content(doc, data):
+def main_content(doc, data, company):
     # data = ['Introduction', "\nThis equity investment report provides an overview of Tata Consultancy Services (TCS), a leading Indian multinational IT services and consulting company. The report covers essential details about the company, including its background, operations, and key initiatives. It also includes current stock and investment information, along with an in-depth explanation of each statistic in the context of TCS. This report aims to provide investors with comprehensive insights into TCS's performance and potential for long-term growth.\n\n", 'Company Background and Operations', '\nTCS, a part of the Tata Group, is a major player in the global IT services industry. It operates in 150 locations across 46 countries, making it a truly multinational company. TCS offers a wide range of IT services, including software development, consulting, and business process outsourcing. With over 600,000 employees worldwide, TCS has established itself as a leader in the industry.\n\n', 'Key Initiatives and Factors Influencing Long-term Performance', "\nTCS has undertaken several key initiatives to drive its long-term performance. These include investing in emerging technologies like artificial intelligence (AI), cloud computing, and blockchain. By focusing on these areas, TCS aims to stay ahead of the curve and address evolving client needs. Additionally, TCS prioritizes innovation and R&D efforts to develop cutting-edge solutions and enhance its competitive advantage.\n\nThe company's strong client relationships and robust delivery capabilities have played a significant role in its long-term success. TCS has a diverse client base across industries, including banking, healthcare, retail, and telecommunications. This diversity helps TCS mitigate the risks associated with industry-specific fluctuations and ensures a more stable revenue stream.\n\nTCS also emphasizes skill development and talent retention as crucial factors for sustained growth. The company invests heavily in employee training and development programs to enhance its workforce's capabilities. TCS's dedication to talent management enables it to deliver high-quality services, gain client trust, and attract and retain top-tier talent.\n\nThe company's long-standing commitment to corporate social responsibility (CSR) is another aspect contributing to its long-term performance. TCS actively engages in various CSR initiatives, including education, environment, and community development programs. These initiatives not only demonstrate TCS's commitment to social welfare but also contribute to its reputation and brand image.\n\n", 'Current Stock and Investment Information', "\nTCS's stock performance is an important consideration for equity investors. As of the provided webpage, the stock price of TCS is ₹3,350.90, exhibiting a consistent upward trend over the years. The company's market capitalization is ₹12,26,111.52 Cr., making it the second-largest Indian company.\n\nKey statistical information related to TCS's performance is as follows:\n\n1. Price-to-Earnings (P/E) Ratio: The P/E ratio of TCS is 27.46. This ratio indicates the market's valuation of the company relative to its earnings. It is commonly used to assess whether a stock is overvalued or undervalued.\n\n2. Earnings Per Share (EPS): TCS has an EPS of ₹122.04, which indicates the company's profitability on a per-share basis. Investors often consider EPS to evaluate a company's financial health and growth potential.\n\n3. Dividend Yield: The dividend yield of TCS is 3.43%. This metric reflects the return on investment from dividend payments, which is particularly important for income-focused investors.\n\n4. Price-to-Book (P/B) Ratio: TCS's P/B ratio is 12.18. The P/B ratio compares a company's market value to its book value and can help investors assess whether a stock is trading at a fair value.\n\n5. Beta: TCS's beta is 0.97, indicating a relatively low level of systematic risk. This suggests that TCS's stock price is less volatile than the market average.\n\n", 'Competitors', "\nTCS faces competition from several prominent players in the IT services industry. The competitors listed on the provided webpage include Infosys, HCL Technologies, L&T Technology Services, Sonata Software, Birlasoft, Mphasis, and Wipro. It is important to consider the competitive landscape when assessing TCS's performance and potential growth prospects.\n\n", 'Conclusion', "\nTCS, as a leading IT services and consulting company, has exhibited strong performance and positioned itself as a global leader in the industry. The company's diversified client base, focus on emerging technologies, and commitment to talent development and CSR contribute to its long-term success. Investors should examine the provided stock and investment information, along with the key initiatives and factors influencing TCS's performance, to assess its investment potential. However, it is crucial to conduct further research and due diligence before making investment decisions.", 'TCS']
     data = data
-    # global symbol 
-    symbol = data[-1]
-    data = data[:-1]
+    # global symbol
+    # prompt = "I need stock symbol of "+company+". The output format must be followed and is as follows - [stock_symbol]" 
+    # response = openai.ChatCompletion.create(
+    #     model = 'gpt-3.5-turbo',
+    #     messages=[
+    #         {"role": "user", "content": prompt}
+    #     ]
+    # )
+    # symbol = response['choices'][0]['message']['content']
+
+    # if"[" in symbol:
+    #     st = symbol.index("[")
+    #     en = symbol.index("]")
+    #     symbol = symbol[st+1:en] + ".NS"
+    # else:
+    #     symbol = symbol.split(" ")[-1] + ".NS"
+    
     data = [text.replace("\n\n", "\n") for text in data]
     graphs_list = ["graph1", "graph2"]
     function_mapping = {
@@ -295,8 +308,7 @@ def graph1(symbol, doc):
     font.name = 'Times New Roman'
     font.size = Pt(12)
 
-
-    doc.add_picture(buffer, width=Inches(6), height=Inches(4))
+    doc.add_picture(buffer, width=Inches(8), height=Inches(6))
 
     plt.close()
 
@@ -331,38 +343,62 @@ def graph2(symbol, doc):
     font.size = Pt(12)
 
 
-    doc.add_picture(buffer, width=Inches(6), height=Inches(4))
+    doc.add_picture(buffer, width=Inches(8), height=Inches(6))
 
     plt.close()
-
-
-
 
 # Create your views here.
 def home(request):
     # sleep(1)
     if request.method == 'POST':
         company = request.POST['company']
-        # report_generator(company)
+        report_generator(company)
         ans = gpt_format(company)
-        print(ans)
         doc = docx.Document()
         topic = "report"
         symbol = ""
         initial_setup(doc, company)
-        main_content(doc, ans)
+        main_content(doc, ans, company)
 
         doc.save(topic+".docx")
+        instructions = {
+            'parts': [
+            {
+            'file': 'document'
+            }
+            ]
+            }
 
-        word = "report.docx"
-        output_pdf = "report.pdf"
-        file = open(output_pdf, "w")
-        file.close()
-        convert(word, output_pdf)
+        response = requests.request(
+        'POST',
+        'https://api.pspdfkit.com/build',
+        headers = {
+        'Authorization': 'Bearer pdf_live_LaJ5ZY4Auuz94CJ5Ch8upK0LVOzi3IPPX3T7GPB5QHX'
+        },
+        files = {
+            'document': open('/Users/prathamarora/Documents/dtu_hack/backend/report.docx', 'rb')
+        },
+        data = {
+            'instructions': json.dumps(instructions)
+        },
+        stream = True
+        )
+
+        if response.ok:
+            with open('/Users/prathamarora/Documents/dtu_hack/backend/static/assests/report.pdf', 'wb') as fd:
+                for chunk in response.iter_content(chunk_size=8096):
+                    fd.write(chunk)
+        else:
+            print(response.text)
+            exit()
+
         return redirect('search')
     return render(request,"main.html")
 
 
 def search(request):
+    # data:{
+
+    # }
 
     return render(request,"aftersearch.html")
