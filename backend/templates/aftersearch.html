@@ -27,7 +27,7 @@
         <div class="right">
             <ul class="nav-link flex">
                 <li><a class="hover-link underline"href=""><i class="fa-solid fa-mug-saucer"></i> Buy us a Coffee</a></li>
-                <li><a  class="hover-link underline"href=""><i class="fa-solid fa-user-group"></i> About us</a></li>
+                <li><a  class="hover-link underline"href="{% url 'about' %}"><i class="fa-solid fa-user-group"></i> About us</a></li>
             </ul>
         </div>
     </div>
@@ -38,7 +38,8 @@
             <h1 class="main-search-head">INVEST<span class="search-heading-i">i</span>WISE</h1>
         </div>
         <div class="search-form">
-            <form class="search-form-cont flex" method="POST"  action="{% url 'home' %}">
+            <form class="search-form-cont flex" method="POST"  action="{% url 'search' %}">
+                {% csrf_token %}
                 <input placeholder="Enter Company Name" type="text" name="company" class="Search-input" required>
                 <button class="Sbtn" ><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
@@ -67,7 +68,7 @@
                 <div class="sign">
                 <p class="senti positive" id="card1 pos">POSITIVE</p>
                 <p class="senti negative" id="card1 neg">NEGATIVE</p>
-                <p class="senti equal" id="card1 equal">POSITIVE</p>
+                <p class="senti equal" id="card1 equal">NEUTRAL</p>
             </div>
             </div>
             <div class="card flex">
@@ -75,7 +76,7 @@
                 <div class="sign">
                     <p class="senti positive" id="card2 pos">POSITIVE</p>
                     <p class="senti negative" id="card2 neg">NEGATIVE</p>
-                    <p class="senti equal" id="card2 equal">POSITIVE</p>
+                    <p class="senti equal" id="card2 equal">NEUTRAL</p>
             </div>
             </div>
             <div class="card flex">
@@ -83,7 +84,7 @@
                 <div class="sign">
                     <p class="senti positive" id="card3 pos">POSITIVE</p>
                     <p class="senti negative" id="card3 neg">NEGATIVE</p>
-                    <p class="senti equal" id="card3 equal">POSITIVE</p>
+                    <p class="senti equal" id="card3 equal">NEUTRAL</p>
             </div>
             </div>
         </div>

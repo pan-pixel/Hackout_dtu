@@ -1,0 +1,99 @@
+{% load static %}
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="{% static './css/main.css' %}">
+    <link rel="stylesheet" href="{% static './css/particle.css' %}">>
+    <style>
+
+    nav{
+        position: relative;
+    }
+    .about_cont{
+        border: 1px solid white;
+        height: calc(100vh - 100px);
+        width: 100%;
+        border-radius: 20px;
+        box-shadow:6px 6px rgb(110, 110, 110);
+        user-select: none;
+        flex-direction: column;
+        justify-content: center
+    }
+    .about_cont h1{
+        text-shadow: 0 0 20px #fff; 
+        padding: var(--padding-inline);
+        text-align: center;
+    }
+    .about_cont p{
+        color: white;
+        padding:var(--padding-inline)  100px ;
+        text-align: justify;
+    }
+    .button{
+
+        justify-content: center;
+    }
+    .button a{
+        font-size: 1.7rem;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 12px;
+        padding: 10px 15px;
+        box-shadow:8px 8px rgb(110, 110, 110);
+        
+    }
+    .button a:hover{
+        animation: button 1s forwards;
+    }
+    @keyframes button{
+        0%{
+            box-shadow:8px 8px rgb(110, 110, 110);
+            border: 1px solid white;
+            text-shadow: 0 0 0px #fff; 
+        }
+        100%{
+            box-shadow:0px 0px rgb(110, 110, 110);
+            border-width: 4px;
+            text-shadow: 0 0 10px #fff; 
+        }
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container navbar flex">
+            <a href="{% url 'home' %}">
+                <div class="left flex">
+                <img src="{% static './assests/bglogo.png' %}" alt="">
+                <h3 class="main-brand">INVEST<span class="color">i</span>WISE</h3>
+                </div>
+            </a>
+            <div class="right">
+                <ul class="nav-link flex">
+                    <li><a class="hover-link underline"href=""><i class="fa-solid fa-mug-saucer"></i> Buy us a Coffee</a></li>
+                    <li><a  class="hover-link underline"href="{% url 'about' %}"><i class="fa-solid fa-user-group"></i> About us</a></li>
+                </ul>
+            </div>
+        </div>
+       </nav>
+    <section class="about_us">
+        <div class="container about_cont flex">
+            <h1>ABOUT US</h1>
+            <p>Welcome to Investivise, where innovation meets investment analysis. We understand the challenges serious investors face when it comes to obtaining accurate and timely equity research reports. Traditionally, this process involves extensive data analysis, often spanning months, and requiring significant financial resources. At Investivise , we've revolutionized this landscape by harnessing the power of artificial intelligence. We proudly introduce a cutting-edge AI tool designed to streamline the equity research report generation process. What used to take months can now be achieved within minutes, thanks to our state-of-the-art technology.<br>Our mission is to empower investors with unparalleled efficiency and accuracy in equity research. We believe that every investor, regardless of size, should have access to high-quality insights without the burden of prolonged waiting periods. By combining advanced data analysis techniques with artificial intelligence, we've created a platform that sets a new standard for the industry.
+            </p>
+            <div class="button flex">
+            <a href="{% url 'home' %}">DIVE INTO IT!</a>
+        </div>
+        </div>
+    </section>
+       <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+      </div>
+</body>
+<script src="https://kit.fontawesome.com/b5a8447ad3.js" crossorigin="anonymous"></script>
+</html>

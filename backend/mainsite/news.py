@@ -39,3 +39,5 @@ def gpt_analysis(company):
     print(response['choices'][0]['message']['content'])
 
 get_news(company)
+
+

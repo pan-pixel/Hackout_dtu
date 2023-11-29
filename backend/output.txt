@@ -3,12 +3,12 @@
 [1m> Entering new AgentExecutor chain...[0m
 [32;1m[1;3m{
     "action": "Search",
-    "action_input": "jppower"
+    "action_input": "MRF company"
 }[0m
-Observation: [36;1m[1;3mStock with medium financial performance with average price momentum and val. MC SWOT. S; W; O; T. Strengths (8) Strong Momentum: Price above short, ...[0m
+Observation: [36;1m[1;3mMRF or MRF Tyres, is an Indian multinational tyre manufacturing company and the largest manufacturer of tyres in India. It is headquartered in Chennai, Tamil Nadu, India. The company manufactures rubber products including tyres, treads, tubes and conveyor belts, paints and toys.[0m
 Thought:[32;1m[1;3m{
     "action": "Final Answer",
-    "action_input": "JP Power Ventures Limited (JP Power) is an Indian power generation company. It is involved in the development, operation, and maintenance of power projects in India. The company primarily focuses on thermal power generation and has a portfolio of coal-based power plants. JP Power aims to contribute to the growth of the Indian power sector by providing reliable and affordable electricity to meet the country's increasing energy demand."
+    "action_input": "MRF is an Indian multinational tyre manufacturing company and the largest manufacturer of tyres in India. It manufactures rubber products including tyres, treads, tubes and conveyor belts, paints and toys."
 }[0m
 
 [1m> Finished chain.[0m
@@ -17,26 +17,17 @@ Thought:[32;1m[1;3m{
 [1m> Entering new AgentExecutor chain...[0m
 [32;1m[1;3m{
     "action": "Wikipedia",
-    "action_input": "JP Power Ventures Limited"
+    "action_input": "MRF (company)"
 }[0m
-Observation: [38;5;200m[1;3mPage: Venture capital
-Summary: Venture capital (commonly abbreviated as VC) is a form of private equity financing that is provided by venture capital firms or funds to startups, early-stage, and emerging companies that have been deemed to have high growth potential or which have demonstrated high growth (in terms of number of employees, annual revenue, scale of operations, etc.). Venture capital firms or funds invest in these early-stage companies in exchange for equity, or an ownership stake. Venture capitalists take on the risk of financing risky start-ups in the hopes that some of the companies they support will become successful. Because startups face high uncertainty, VC investments have high rates of failure. The start-ups are usually based on an innovative technology or business model and they are usually from high technology industries, such as information technology (IT), clean technology or biotechnology.
+Observation: [38;5;200m[1;3mPage: MRF (company)
+Summary: MRF or MRF Tyres, is an Indian multinational tyre manufacturing company and the largest manufacturer of tyres in India. It is headquartered in Chennai, Tamil Nadu, India. The company manufactures rubber products including tyres, treads, tubes and conveyor belts, paints and toys. MRF also runs the MRF Pace Foundation, Chennai and MIDD – MRF Institute of Driver Development in Chennai. MRF Limited has emerged as the world's second-strongest tyre maker, with a AAA- brand grade.
 
-Typical venture capital investments occur after an initial "seed funding" round. The first round of institutional venture capital to fund growth is called the Series A round. Venture capitalists provide this financing in the interest of generating a return through an eventual "exit" event, such as the company selling shares to the public for the first time in an initial public offering (IPO), or disposal of shares happening via a merger, via a sale to another entity such as a financial buyer in the private equity secondary market or via a sale to a trading company such as a competitor.
-In addition to angel investing, equity crowdfunding and other seed funding options, venture capital is attractive for new companies with limited operating history that are too small to raise capital in the public markets and have not reached the point where they are able to secure a bank loan or complete a debt offering. In exchange for the high risk that venture capitalists assume by investing in smaller and early-stage companies, venture capitalists usually get significant control over company decisions, in addition to a significant portion of the companies' ownership (and consequently value). Companies such as Stripe, Airtable, and Brex are highly valued startups, commonly known as Unicorns (when a company has reached a market valuation of over $1 billion). Venture capitalists also often provide strategic advice to the company's executives on its business model and marketing strategies.
-Venture capital is also a way in which the private and public sectors can construct an institution that systematically creates business networks for the new firms and industries so that they can progress and develop. This institution helps identify promising new firms and provide them with finance, technical expertise, mentoring, talent acquisition, strategic partnership, marketing "know-how", and business models. Once integrated into the business network, these firms are more likely to succeed, as they become "nodes" in the search networks for designing and building products in their domain. However, venture capitalists' decisions are often biased, exhibiting for instance overconfidence and illusion of control, much like entrepreneurial decisions in general.
-
-Page: Jaypee Group
-Summary: Jaiprakash Associates Limited, commonly known as Jaypee Group, is an Indian conglomerate company headquartered in Noida, Uttar Pradesh, with interests in engineering, construction, power, real estate, hospitality, IT, sports and education (non-profit).
-
-Page: Suntory
-Summary: Suntory Holdings Limited (サントリーホールディングス株式会社, Santorī Hōrudingusu Kabushiki-gaisha) (commonly referred to as simply Suntory) is a Japanese multinational brewing and distilling company group. Established in 1899, it is one of the oldest companies in the distribution of alcoholic beverages in Japan, and makes Japanese whisky. 
-Its business has expanded to other fields, and the company now also makes soft drinks and operates sandwich chains. With its 2014 acquisition of Beam, Inc., it has diversified internationally and become the third largest maker of distilled beverages in the world. Suntory is headquartered in Dojimahama 2-chome, Kita-ku, Osaka, Osaka Prefecture. Suntory Beverage & Food Limited (サントリー食品インターナショナル株式会社, Santorī shokuhin intānashonaru Kabushiki-gaisha), a subsidiary of Suntory, is responsible for development outside Japan.
-
-[0m
+Page: MRF Pace Foundation
+Summary: MRF Pace Foundation is a coaching clinic for training fast bowlers from all over the world. Based in Chennai, India, it was founded in 1987 by MRF Limited, with the help of former Australian pace spearhead Dennis Lillee. Through this program, young aspiring fast bowlers are trained in a facility located at the campus of Madras Christian College Higher Secondary School, Chetpet, Chennai.
+Fast bowlers who have trained with the MRF Pace Foundation and gone on to represent the Indian Cricket Team include Vivek Razdan, Javagal Srinath, Irfan Pathan, Munaf Patel, Venkatesh Prasad, R. P. Singh, Zaheer Khan and Shanthakumaran Sreesanth. Besides Indian players, foreign players like Chaminda Vaas, Henry Olonga, Heath Streak, Mohammad Asif and Australian fast bowlers Glenn McGrath, Mitchell Johnson and Brett Lee have also trained at the Foundation. Sachin Tendulkar in his school days trained in the MRF Pace Foundation to become a fast bowler. Glenn McGrath was appointed director of the Foundation on 2 September 2012, replacing Dennis Lillee, who has held the post since its inception in 1987.Prasidh Krishna becomes the latest name, who joined the Indian Cricket Team for the Asia Cup. He's the 21st fast bowler from MRF pace Foundation.[0m
 Thought:[32;1m[1;3m{
     "action": "Final Answer",
-    "action_input": "JP Power Ventures Limited is an Indian power generation company involved in the development, operation, and maintenance of power projects in India. It primarily focuses on thermal power generation and has a portfolio of coal-based power plants. For more detailed information, you can refer to the Wikipedia page on JP Power Ventures Limited."
+    "action_input": "MRF (company) is an Indian multinational tyre manufacturing company and the largest manufacturer of tyres in India. It is headquartered in Chennai, Tamil Nadu, India. The company manufactures rubber products including tyres, treads, tubes and conveyor belts, paints and toys. MRF also runs the MRF Pace Foundation, a coaching clinic for training fast bowlers from all over the world."
 }[0m
 
 [1m> Finished chain.[0m
@@ -45,9 +36,9 @@ Thought:[32;1m[1;3m{
 [1m> Entering new AgentExecutor chain...[0m
 [32;1m[1;3m{
     "action": "Get Webpage",
-    "action_input": "https://www.businesstoday.in/stocks/jaiprakash-power-ventures-ltd-jppower-share-price-365554"
+    "action_input": "https://www.businesstoday.in/infopage/share-market/mrf-share-price"
 }[0m
-Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JPPOWER Share Price NSE, BSE                              
+Observation: [31;1m[1;3m   MRF share price, Latest News MRF share price , MRF share price , MRF share price  Photos, MRF share price  updates, MRF share price  news, MRF share price                               
  
 
 
@@ -56,7 +47,8 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
  
 
  
-     
+      
+
   
 
 
@@ -67,6 +59,7 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
       Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
 
 
 
@@ -100,29 +93,11 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
 
-                             News Markets Stocks Jaiprakash Power Ventures Ltd         Feedback                    Jaiprakash Power Ventures Ltd  (JPPOWER)  Share Price      BSE                        Powered By :   SELL   BUY               ₹0 Low   Today’s Performance    ₹0 High     ₹0 Low   52 Week’s Performance    ₹0 High           STOCK ANALYSIS             STOCK PERFORMANCE   No records found!!!      PEER COMPARISON          Price  Price Market Cap (In Cr.)          
 
-
- 
-
-
-   STOCK SUMMARY  Records not found!!!  
-
-  COMPETITORS  Records not found!!!   
-
-
-
-
-
-
-
-
-
-
-      BT TV          10:30  Exclusive: SBI Chairman Dinesh Kumar Khara On Q2 Results        26:33  Israel-Hamas War | Impact On Global Economy        3:13  What Is COP28 and Why Is It Important for India?        3:55  Leading the Way: Women Golfers at Royal Ranthambore BT Golf        4:24  'BT Golf Is A Great Platform & Opportunity To Showcase Our Golf Skills'         View more          FINANCIAL ANALYSIS    Consolidated Standalone        Income Statement (₹ Cr.)      Quarterly Annual                       Balance Sheet (₹ Cr.)        Cash Flow (₹ Cr.)           Income Statement (₹ Cr.)      Quarterly Annual                   Balance Sheet (₹ Cr.)      Cash Flow (₹ Cr.)           RATIO ANALYSIS    Consolidated Standalone        Return on Equity (%)          Return on Assets (%)         Price-to-Earnings (P/E) (X)        Price to Book (x)        Return on Capital Employed (%)        Enterprise Value to EBITDA (X)        Net Profit Margin (%)        Gross Profit Margin (%)        EBITDA Margin (%)            Return on Equity (%)        Return on Assets (%)        Price-to-Earnings (P/E) (X)        Price to Book (x)        Return on Capital Employed (%)        Enterprise Value to EBITDA [0m
+                                News MRF share price         Feedback     MRF share price                                   More Stories on MRF share price         IRCTC, RR Kabel, MRF among ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on November 17: Stock market, Bank Nifty outlook, Bharat Gaurav train launch in Mumbai Nov 17, 2023 IRCTC, RR Kabel, MRF ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on Nov 17: Stock market, Nifty, Bharat Gaurav tourist train launch in Mumbai also in focus.          ESAF Small Finance Bank IPO to open, MRF, JSW Infra, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook Nov 03, 2023 ESAF Small Finance Bank IPO to open, MRF, JSW Infra, Zomato, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook also in focus.          Dividend stocks today: TCS, HCL Technologies, Fortis Healthcare, MRF, 11 other stocks trading ex-dividend on July 20; check full list Jul 20, 2023 Dividend stocks today: A total of fifteen stocks including Tata Consultancy Services (TCS), HCL Technologies, MRF, Fortis Healthcare, Graphite India are trading ex-dividend today (July 20). Check the full list, record date, and more.          Reliance Industries, Infosys, HCL Technologies, HUL, TCS, others among stocks to watch on July 20, 2023 Jul 20, 2023 Stocks in focus today: Share market today would react to the weekly option expiry and results of index heavyweight Infosys and HUL. Fortis Healthcare, Reliance Industries, HCL Technologies, TCS, and MRF are amo[0m
 Thought:[32;1m[1;3m{
     "action": "Final Answer",
-    "action_input": "The Price-to-Earnings (P/E) ratio of Jaiprakash Power Ventures Ltd (JPPOWER) is not available on the provided webpage."
+    "action_input": "The Price-to-Earnings (P/E) ratio of MRF is not mentioned on the provided webpage."
 }[0m
 
 [1m> Finished chain.[0m
@@ -131,9 +106,9 @@ Thought:[32;1m[1;3m{
 [1m> Entering new AgentExecutor chain...[0m
 [32;1m[1;3m{
     "action": "Get Webpage",
-    "action_input": "https://www.businesstoday.in/stocks/jaiprakash-power-ventures-ltd-jppower-share-price-365554"
+    "action_input": "https://www.businesstoday.in/infopage/share-market/mrf-share-price"
 }[0m
-Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JPPOWER Share Price NSE, BSE                              
+Observation: [31;1m[1;3m   MRF share price, Latest News MRF share price , MRF share price , MRF share price  Photos, MRF share price  updates, MRF share price  news, MRF share price                               
  
 
 
@@ -142,7 +117,8 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
  
 
  
-     
+      
+
   
 
 
@@ -153,6 +129,7 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
       Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
 
 
 
@@ -186,29 +163,11 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
 
-                             News Markets Stocks Jaiprakash Power Ventures Ltd         Feedback                    Jaiprakash Power Ventures Ltd  (JPPOWER)  Share Price   Sector: Power Generation & Distribution (Small Cap) Volume: 562,387,889  Nov 03, 2023 15:59 IST-       NSE   BSE                    ₹11.45 ₹1.05 (10.10%)     Powered By :   SELL   BUY               ₹10.4 Low   Today’s Performance    ₹11.55 High     ₹5.15 Low   52 Week’s Performance    ₹11.55 High           STOCK ANALYSIS             STOCK PERFORMANCE     1 Day 10.10%     1 Week 23.12%     1 Month 13.93%     3 Months 81.75%     6 Months 94.07%     1 Year 54.73%     3 Years 69.53%     5 Years 40.38%        PEER COMPARISON          Price  Price Market Cap (In Cr.)          
 
-
- 
-
-
-   STOCK SUMMARY    Face Value (₹) 10.00   Beta 1.76   52-Week Low (₹) 5.15   52-Week High (₹) 11.55   Price-to-Book (X)* 1.18   Dividend Yield (%) 0.00   Price-to-Earnings (P/E) (X)* 0.00   Earnings Per Share (₹) 0.01   Sector Price Earning (X)* 15.00   Market Cap (₹ Cr.)* 7,847.21   * Vaues as of last close price   
-
-  COMPETITORS         SJVN   ₹73.85 -1.05 (-1.40%)           NLC India   ₹140.50 -1.15 (0.81%)           Adani Green Energy   ₹902.70 10.60 (1.19%)           Reliance Power   ₹18.25 0.00 (0.00%)           Adani Power   ₹384.65 11.70 (3.14%)           NHPC   ₹50.15 0.35 (0.69%)           JSW Energy   ₹393.80 0.30 (0.08%)      
-
-
-
-
-
-
-
-
-
-
-      BT TV          10:30  Exclusive: SBI Chairman Dinesh Kumar Khara On Q2 Results        26:33  Israel-Hamas War | Impact On Global Economy        3:13  What Is COP28 and Why Is It Important for India?        3:55  Leading the Way: Women Golfers at Royal Ranthambore BT Golf        4:24  'BT Golf Is A Great Platform & Opportunity To Showcase Our Golf Skills' [0m
+                                News MRF share price         Feedback     MRF share price                                   More Stories on MRF share price         IRCTC, RR Kabel, MRF among ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on November 17: Stock market, Bank Nifty outlook, Bharat Gaurav train launch in Mumbai Nov 17, 2023 IRCTC, RR Kabel, MRF ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on Nov 17: Stock market, Nifty, Bharat Gaurav tourist train launch in Mumbai also in focus.          ESAF Small Finance Bank IPO to open, MRF, JSW Infra, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook Nov 03, 2023 ESAF Small Finance Bank IPO to open, MRF, JSW Infra, Zomato, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook also in focus.          Dividend stocks today: TCS, HCL Technologies, Fortis Healthcare, MRF, 11 other stocks trading ex-dividend on July 20; check full list Jul 20, 2023 Dividend stocks today: A total of fifteen stocks including Tata Consultancy Services (TCS), HCL Technologies, MRF, Fortis Healthcare, Graphite India are trading ex-dividend today (July 20). Check the full list, record date, and more.          Reliance Industries, Infosys, HCL Technologies, HUL, TCS, others among stocks to watch on July 20, 2023 Jul 20, 2023 Stocks in focus today: Share market today would react to the weekly option expiry and results of index heavyweight Infosys and HUL. Fortis Healthcare, Reliance Industries, HCL Technologies, TCS, and MRF are amo[0m
 Thought:[32;1m[1;3m{
     "action": "Final Answer",
-    "action_input": "The stock price of Jaiprakash Power Ventures Ltd (JPPOWER) is ₹11.45 as of the last close price."
+    "action_input": "The stock price of MRF is not available on the provided webpage."
 }[0m
 
 [1m> Finished chain.[0m
@@ -217,9 +176,9 @@ Thought:[32;1m[1;3m{
 [1m> Entering new AgentExecutor chain...[0m
 [32;1m[1;3m{
     "action": "Get Webpage",
-    "action_input": "https://www.businesstoday.in/stocks/jaiprakash-power-ventures-ltd-jppower-share-price-365554"
+    "action_input": "https://www.businesstoday.in/infopage/share-market/mrf-share-price"
 }[0m
-Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JPPOWER Share Price NSE, BSE                              
+Observation: [31;1m[1;3m   MRF share price, Latest News MRF share price , MRF share price , MRF share price  Photos, MRF share price  updates, MRF share price  news, MRF share price                               
  
 
 
@@ -228,7 +187,8 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
  
 
  
-     
+      
+
   
 
 
@@ -239,6 +199,7 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
       Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
 
 
 
@@ -272,29 +233,11 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
 
-                             News Markets Stocks Jaiprakash Power Ventures Ltd         Feedback                    Jaiprakash Power Ventures Ltd  (JPPOWER)  Share Price   Sector: Power Generation & Distribution (Small Cap) Volume: 562,387,889  Nov 03, 2023 15:59 IST-       NSE   BSE                    ₹11.45 ₹1.05 (10.10%)     Powered By :   SELL   BUY               ₹10.4 Low   Today’s Performance    ₹11.55 High     ₹5.15 Low   52 Week’s Performance    ₹11.55 High           STOCK ANALYSIS             STOCK PERFORMANCE     1 Day 10.10%     1 Week 23.12%     1 Month 13.93%     3 Months 81.75%     6 Months 94.07%     1 Year 54.73%     3 Years 69.53%     5 Years 40.38%        PEER COMPARISON          Price  Price Market Cap (In Cr.)          
 
-
- 
-
-
-   STOCK SUMMARY    Face Value (₹) 10.00   Beta 1.76   52-Week Low (₹) 5.15   52-Week High (₹) 11.55   Price-to-Book (X)* 1.18   Dividend Yield (%) 0.00   Price-to-Earnings (P/E) (X)* 0.00   Earnings Per Share (₹) 0.01   Sector Price Earning (X)* 15.00   Market Cap (₹ Cr.)* 7,847.21   * Vaues as of last close price   
-
-  COMPETITORS         SJVN   ₹73.85 -1.05 (-1.40%)           NLC India   ₹140.50 -1.15 (0.81%)           Adani Green Energy   ₹902.70 10.60 (1.19%)           Reliance Power   ₹18.25 0.00 (0.00%)           Adani Power   ₹384.65 11.70 (3.14%)           NHPC   ₹50.15 0.35 (0.69%)           JSW Energy   ₹393.80 0.30 (0.08%)      
-
-
-
-
-
-
-
-
-
-
-      BT TV          10:30  Exclusive: SBI Chairman Dinesh Kumar Khara On Q2 Results        26:33  Israel-Hamas War | Impact On Global Economy        3:13  What Is COP28 and Why Is It Important for India?        3:55  Leading the Way: Women Golfers at Royal Ranthambore BT Golf        4:24  'BT Golf Is A Great Platform & Opportunity To Showcase Our Golf Skills' [0m
+                                News MRF share price         Feedback     MRF share price                                   More Stories on MRF share price         IRCTC, RR Kabel, MRF among ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on November 17: Stock market, Bank Nifty outlook, Bharat Gaurav train launch in Mumbai Nov 17, 2023 IRCTC, RR Kabel, MRF ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on Nov 17: Stock market, Nifty, Bharat Gaurav tourist train launch in Mumbai also in focus.          ESAF Small Finance Bank IPO to open, MRF, JSW Infra, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook Nov 03, 2023 ESAF Small Finance Bank IPO to open, MRF, JSW Infra, Zomato, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook also in focus.          Dividend stocks today: TCS, HCL Technologies, Fortis Healthcare, MRF, 11 other stocks trading ex-dividend on July 20; check full list Jul 20, 2023 Dividend stocks today: A total of fifteen stocks including Tata Consultancy Services (TCS), HCL Technologies, MRF, Fortis Healthcare, Graphite India are trading ex-dividend today (July 20). Check the full list, record date, and more.          Reliance Industries, Infosys, HCL Technologies, HUL, TCS, others among stocks to watch on July 20, 2023 Jul 20, 2023 Stocks in focus today: Share market today would react to the weekly option expiry and results of index heavyweight Infosys and HUL. Fortis Healthcare, Reliance Industries, HCL Technologies, TCS, and MRF are amo[0m
 Thought:[32;1m[1;3m{
     "action": "Final Answer",
-    "action_input": "The return on equity (ROE) of Jaiprakash Power Ventures Ltd (JPPOWER) for the year 2023 is not available on the provided webpage."
+    "action_input": "The return on equity of MRF for the year 2023 is not available on the provided webpage."
 }[0m
 
 [1m> Finished chain.[0m
@@ -303,12 +246,12 @@ Thought:[32;1m[1;3m{
 [1m> Entering new AgentExecutor chain...[0m
 [32;1m[1;3m{
     "action": "Search",
-    "action_input": "current status of Jaiprakash Power Ventures Ltd"
+    "action_input": "current status of MRF"
 }[0m
-Observation: [36;1m[1;3mJaiprakash Power Ventures Share Price Live NSE/BSE updates on The Economic Times. Check out why Jaiprakash Power Ventures share price is up today.[0m
+Observation: [36;1m[1;3mMRF Share Price: Find the latest news on MRF Stock Price. Get all the information on MRF with historic price charts for NSE / BSE.[0m
 Thought:[32;1m[1;3m{
     "action": "Final Answer",
-    "action_input": "The current status of Jaiprakash Power Ventures Ltd is not available. Please refer to the latest updates on the NSE/BSE or financial news websites for the most up-to-date information."
+    "action_input": "The current status of MRF is not available. Please refer to the latest news and price charts on NSE/BSE for more information."
 }[0m
 
 [1m> Finished chain.[0m
@@ -317,9 +260,9 @@ Thought:[32;1m[1;3m{
 [1m> Entering new AgentExecutor chain...[0m
 [32;1m[1;3m{
     "action": "Get Webpage",
-    "action_input": "https://www.businesstoday.in/stocks/jaiprakash-power-ventures-ltd-jppower-share-price-365554"
+    "action_input": "https://www.businesstoday.in/infopage/share-market/mrf-share-price"
 }[0m
-Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JPPOWER Share Price NSE, BSE                              
+Observation: [31;1m[1;3m   MRF share price, Latest News MRF share price , MRF share price , MRF share price  Photos, MRF share price  updates, MRF share price  news, MRF share price                               
  
 
 
@@ -328,7 +271,8 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
  
 
  
-     
+      
+
   
 
 
@@ -339,6 +283,7 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
       Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
 
 
 
@@ -372,29 +317,11 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
 
-                             News Markets Stocks Jaiprakash Power Ventures Ltd         Feedback                    Jaiprakash Power Ventures Ltd  (JPPOWER)  Share Price   Sector: Power Generation & Distribution (Small Cap) Volume: 562,387,889  Nov 03, 2023 15:59 IST-       NSE   BSE                    ₹11.45 ₹1.05 (10.10%)     Powered By :   SELL   BUY               ₹10.4 Low   Today’s Performance    ₹11.55 High     ₹5.15 Low   52 Week’s Performance    ₹11.55 High           STOCK ANALYSIS             STOCK PERFORMANCE     1 Day 10.10%     1 Week 23.12%     1 Month 13.93%     3 Months 81.75%     6 Months 94.07%     1 Year 54.73%     3 Years 69.53%     5 Years 40.38%        PEER COMPARISON          Price  Price Market Cap (In Cr.)          
 
-
- 
-
-
-   STOCK SUMMARY    Face Value (₹) 10.00   Beta 1.76   52-Week Low (₹) 5.15   52-Week High (₹) 11.55   Price-to-Book (X)* 1.18   Dividend Yield (%) 0.00   Price-to-Earnings (P/E) (X)* 0.00   Earnings Per Share (₹) 0.01   Sector Price Earning (X)* 15.00   Market Cap (₹ Cr.)* 7,847.21   * Vaues as of last close price   
-
-  COMPETITORS         SJVN   ₹73.85 -1.05 (-1.40%)           NLC India   ₹140.50 -1.15 (0.81%)           Adani Green Energy   ₹902.70 10.60 (1.19%)           Reliance Power   ₹18.25 0.00 (0.00%)           Adani Power   ₹384.65 11.70 (3.14%)           NHPC   ₹50.15 0.35 (0.69%)           JSW Energy   ₹393.80 0.30 (0.08%)      
-
-
-
-
-
-
-
-
-
-
-      BT TV          10:30  Exclusive: SBI Chairman Dinesh Kumar Khara On Q2 Results        26:33  Israel-Hamas War | Impact On Global Economy        3:13  What Is COP28 and Why Is It Important for India?        3:55  Leading the Way: Women Golfers at Royal Ranthambore BT Golf        4:24  'BT Golf Is A Great Platform & Opportunity To Showcase Our Golf Skills' [0m
+                                News MRF share price         Feedback     MRF share price                                   More Stories on MRF share price         IRCTC, RR Kabel, MRF among ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on November 17: Stock market, Bank Nifty outlook, Bharat Gaurav train launch in Mumbai Nov 17, 2023 IRCTC, RR Kabel, MRF ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on Nov 17: Stock market, Nifty, Bharat Gaurav tourist train launch in Mumbai also in focus.          ESAF Small Finance Bank IPO to open, MRF, JSW Infra, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook Nov 03, 2023 ESAF Small Finance Bank IPO to open, MRF, JSW Infra, Zomato, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook also in focus.          Dividend stocks today: TCS, HCL Technologies, Fortis Healthcare, MRF, 11 other stocks trading ex-dividend on July 20; check full list Jul 20, 2023 Dividend stocks today: A total of fifteen stocks including Tata Consultancy Services (TCS), HCL Technologies, MRF, Fortis Healthcare, Graphite India are trading ex-dividend today (July 20). Check the full list, record date, and more.          Reliance Industries, Infosys, HCL Technologies, HUL, TCS, others among stocks to watch on July 20, 2023 Jul 20, 2023 Stocks in focus today: Share market today would react to the weekly option expiry and results of index heavyweight Infosys and HUL. Fortis Healthcare, Reliance Industries, HCL Technologies, TCS, and MRF are amo[0m
 Thought:[32;1m[1;3m{
     "action": "Final Answer",
-    "action_input": "Here is a summary of the data for Jaiprakash Power Ventures Ltd (JPPOWER):\n\n- Share Price: ₹11.45\n- Sector: Power Generation & Distribution (Small Cap)\n- Volume: 562,387,889\n- 1 Day Performance: 10.10%\n- 1 Week Performance: 23.12%\n- 1 Month Performance: 13.93%\n- 3 Months Performance: 81.75%\n- 6 Months Performance: 94.07%\n- 1 Year Performance: 54.73%\n- 3 Years Performance: 69.53%\n- 5 Years Performance: 40.38%\n- Face Value: ₹10.00\n- Beta: 1.76\n- 52-Week Low: ₹5.15\n- 52-Week High: ₹11.55\n- Price-to-Book (P/B): 1.18\n- Dividend Yield: 0.00%\n- Price-to-Earnings (P/E): 0.00\n- Earnings Per Share (EPS): ₹0.01\n- Sector Price Earnings: 15.00\n- Market Cap: ₹7,847.21 Crores\n\nPlease note that this information is based on the last close price and may be subject to change."
+    "action_input": "The data in bullet form for MRF on the provided webpage is not available."
 }[0m
 
 [1m> Finished chain.[0m
@@ -403,9 +330,9 @@ Thought:[32;1m[1;3m{
 [1m> Entering new AgentExecutor chain...[0m
 [32;1m[1;3m{
     "action": "Get Webpage",
-    "action_input": "https://www.businesstoday.in/stocks/jaiprakash-power-ventures-ltd-jppower-share-price-365554"
+    "action_input": "https://www.businesstoday.in/infopage/share-market/mrf-share-price"
 }[0m
-Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JPPOWER Share Price NSE, BSE                              
+Observation: [31;1m[1;3m   MRF share price, Latest News MRF share price , MRF share price , MRF share price  Photos, MRF share price  updates, MRF share price  news, MRF share price                               
  
 
 
@@ -414,7 +341,8 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
  
 
  
-     
+      
+
   
 
 
@@ -425,6 +353,7 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
       Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
 
 
 
@@ -458,29 +387,11 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
 
-                             News Markets Stocks Jaiprakash Power Ventures Ltd         Feedback                    Jaiprakash Power Ventures Ltd  (JPPOWER)  Share Price   Sector: Power Generation & Distribution (Small Cap) Volume: 562,387,889  Nov 03, 2023 15:59 IST-       NSE   BSE                    ₹11.45 ₹1.05 (10.10%)     Powered By :   SELL   BUY               ₹10.4 Low   Today’s Performance    ₹11.55 High     ₹5.15 Low   52 Week’s Performance    ₹11.55 High           STOCK ANALYSIS             STOCK PERFORMANCE     1 Day 10.10%     1 Week 23.12%     1 Month 13.93%     3 Months 81.75%     6 Months 94.07%     1 Year 54.73%     3 Years 69.53%     5 Years 40.38%        PEER COMPARISON          Price  Price Market Cap (In Cr.)          
 
-
- 
-
-
-   STOCK SUMMARY    Face Value (₹) 10.00   Beta 1.76   52-Week Low (₹) 5.15   52-Week High (₹) 11.55   Price-to-Book (X)* 1.18   Dividend Yield (%) 0.00   Price-to-Earnings (P/E) (X)* 0.00   Earnings Per Share (₹) 0.01   Sector Price Earning (X)* 15.00   Market Cap (₹ Cr.)* 7,847.21   * Vaues as of last close price   
-
-  COMPETITORS         SJVN   ₹73.85 -1.05 (-1.40%)           NLC India   ₹140.50 -1.15 (0.81%)           Adani Green Energy   ₹902.70 10.60 (1.19%)           Reliance Power   ₹18.25 0.00 (0.00%)           Adani Power   ₹384.65 11.70 (3.14%)           NHPC   ₹50.15 0.35 (0.69%)           JSW Energy   ₹393.80 0.30 (0.08%)      
-
-
-
-
-
-
-
-
-
-
-      BT TV          10:30  Exclusive: SBI Chairman Dinesh Kumar Khara On Q2 Results        26:33  Israel-Hamas War | Impact On Global Economy        3:13  What Is COP28 and Why Is It Important for India?        3:55  Leading the Way: Women Golfers at Royal Ranthambore BT Golf        4:24  'BT Golf Is A Great Platform & Opportunity To Showcase Our Golf Skills' [0m
+                                News MRF share price         Feedback     MRF share price                                   More Stories on MRF share price         IRCTC, RR Kabel, MRF among ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on November 17: Stock market, Bank Nifty outlook, Bharat Gaurav train launch in Mumbai Nov 17, 2023 IRCTC, RR Kabel, MRF ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on Nov 17: Stock market, Nifty, Bharat Gaurav tourist train launch in Mumbai also in focus.          ESAF Small Finance Bank IPO to open, MRF, JSW Infra, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook Nov 03, 2023 ESAF Small Finance Bank IPO to open, MRF, JSW Infra, Zomato, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook also in focus.          Dividend stocks today: TCS, HCL Technologies, Fortis Healthcare, MRF, 11 other stocks trading ex-dividend on July 20; check full list Jul 20, 2023 Dividend stocks today: A total of fifteen stocks including Tata Consultancy Services (TCS), HCL Technologies, MRF, Fortis Healthcare, Graphite India are trading ex-dividend today (July 20). Check the full list, record date, and more.          Reliance Industries, Infosys, HCL Technologies, HUL, TCS, others among stocks to watch on July 20, 2023 Jul 20, 2023 Stocks in focus today: Share market today would react to the weekly option expiry and results of index heavyweight Infosys and HUL. Fortis Healthcare, Reliance Industries, HCL Technologies, TCS, and MRF are amo[0m
 Thought:[32;1m[1;3m{
     "action": "Final Answer",
-    "action_input": "The competitors of Jaiprakash Power Ventures Ltd (JPPOWER) are SJVN, NLC India, Adani Green Energy, Reliance Power, Adani Power, NHPC, and JSW Energy."
+    "action_input": "The competitors of MRF are not mentioned on the provided webpage."
 }[0m
 
 [1m> Finished chain.[0m
@@ -489,9 +400,9 @@ Thought:[32;1m[1;3m{
 [1m> Entering new AgentExecutor chain...[0m
 [32;1m[1;3m{
     "action": "Get Webpage",
-    "action_input": "https://www.businesstoday.in/stocks/jaiprakash-power-ventures-ltd-jppower-share-price-365554"
+    "action_input": "https://www.businesstoday.in/infopage/share-market/mrf-share-price"
 }[0m
-Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JPPOWER Share Price NSE, BSE                              
+Observation: [31;1m[1;3m   MRF share price, Latest News MRF share price , MRF share price , MRF share price  Photos, MRF share price  updates, MRF share price  news, MRF share price                               
  
 
 
@@ -500,7 +411,8 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
  
 
  
-     
+      
+
   
 
 
@@ -511,6 +423,7 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
       Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
 
 
 
@@ -544,17 +457,33 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
 
-                             News Markets Stocks Jaiprakash Power Ventures Ltd         Feedback                    Jaiprakash Power Ventures Ltd  (JPPOWER)  Share Price   Sector: Power Generation & Distribution (Small Cap) Volume: 562,387,889  Nov 03, 2023 15:59 IST-       NSE   BSE                    ₹11.45 ₹1.05 (10.10%)     Powered By :   SELL   BUY               ₹10.4 Low   Today’s Performance    ₹11.55 High     ₹5.15 Low   52 Week’s Performance    ₹11.55 High           STOCK ANALYSIS             STOCK PERFORMANCE     1 Day 10.10%     1 Week 23.12%     1 Month 13.93%     3 Months 81.75%     6 Months 94.07%     1 Year 54.73%     3 Years 69.53%     5 Years 40.38%        PEER COMPARISON          Price  Price Market Cap (In Cr.)          
+
+                                News MRF share price         Feedback     MRF share price                                   More Stories on MRF share price         IRCTC, RR Kabel, MRF among ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on November 17: Stock market, Bank Nifty outlook, Bharat Gaurav train launch in Mumbai Nov 17, 2023 IRCTC, RR Kabel, MRF ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on Nov 17: Stock market, Nifty, Bharat Gaurav tourist train launch in Mumbai also in focus.          ESAF Small Finance Bank IPO to open, MRF, JSW Infra, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook Nov 03, 2023 ESAF Small Finance Bank IPO to open, MRF, JSW Infra, Zomato, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook also in focus.          Dividend stocks today: TCS, HCL Technologies, Fortis Healthcare, MRF, 11 other stocks trading ex-dividend on July 20; check full list Jul 20, 2023 Dividend stocks today: A total of fifteen stocks including Tata Consultancy Services (TCS), HCL Technologies, MRF, Fortis Healthcare, Graphite India are trading ex-dividend today (July 20). Check the full list, record date, and more.          Reliance Industries, Infosys, HCL Technologies, HUL, TCS, others among stocks to watch on July 20, 2023 Jul 20, 2023 Stocks in focus today: Share market today would react to the weekly option expiry and results of index heavyweight Infosys and HUL. Fortis Healthcare, Reliance Industries, HCL Technologies, TCS, and MRF are amo[0m
+Thought:[32;1m[1;3m{
+    "action": "Final Answer",
+    "action_input": "The bullet point summary of the ratio analysis for MRF on the provided webpage is not available."
+}[0m
+
+[1m> Finished chain.[0m
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3m{
+    "action": "Get Webpage",
+    "action_input": "https://www.businesstoday.in/infopage/share-market/mrf-share-price"
+}[0m
+Observation: [31;1m[1;3m   MRF share price, Latest News MRF share price , MRF share price , MRF share price  Photos, MRF share price  updates, MRF share price  news, MRF share price                               
+ 
+
+
 
 
  
 
+ 
+      
 
-   STOCK SUMMARY    Face Value (₹) 10.00   Beta 1.76   52-Week Low (₹) 5.15   52-Week High (₹) 11.55   Price-to-Book (X)* 1.18   Dividend Yield (%) 0.00   Price-to-Earnings (P/E) (X)* 0.00   Earnings Per Share (₹) 0.01   Sector Price Earning (X)* 15.00   Market Cap (₹ Cr.)* 7,847.21   * Vaues as of last close price   
-
-  COMPETITORS         SJVN   ₹73.85 -1.05 (-1.40%)           NLC India   ₹140.50 -1.15 (0.81%)           Adani Green Energy   ₹902.70 10.60 (1.19%)           Reliance Power   ₹18.25 0.00 (0.00%)           Adani Power   ₹384.65 11.70 (3.14%)           NHPC   ₹50.15 0.35 (0.69%)           JSW Energy   ₹393.80 0.30 (0.08%)      
-
-
+  
 
 
 
@@ -563,10 +492,46 @@ Observation: [31;1m[1;3m   Jaiprakash Power Ventures Ltd Share Price Today, JP
 
 
 
-      BT TV          10:30  Exclusive: SBI Chairman Dinesh Kumar Khara On Q2 Results        26:33  Israel-Hamas War | Impact On Global Economy        3:13  What Is COP28 and Why Is It Important for India?        3:55  Leading the Way: Women Golfers at Royal Ranthambore BT Golf        4:24  'BT Golf Is A Great Platform & Opportunity To Showcase Our Golf Skills' [0m
+      Business Today BT Bazaar India Today Northeast Web3Cafe DailyO India Today Gaming Cosmopolitan Harper's Bazaar Brides Today Ishq FM Aaj Tak GNTTV iChowk Kisan Tak         Lallantop Malyalam Bangla Sports Tak Crime Tak Aajtak Campus Astro tak                       Subscribe         Home  Magazine      Cover Story       Editor's Note       Deep Dive       Interview       The Buzz       BT TV      Market Today       Easynomics       Drive Today       BT Explainer       Market Today      Indices       Trending Stocks       Stocks List       Stocks News       Share Market News       IPO Corner       Tech Today      Unbox Today       Authen Tech       Tech Deck       Tech Shorts       Money Today      Tax       Investment       Insurance       Tools & Calculator       Mutual Funds  Industry      Banking       IT       Auto       Energy       Commodities       Pharma       Real Estate       Telecom       BTShorts  Visual Stories  BT Reels   events     Special  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           Immersives   UPSTART   ICC World Cup   Corporate   Petrol-Diesel   Weather   BT Bazaar                 BT-TR GCC Listing               Clear all  Search   COMPANIES No Data Found   INDICES ANALYSIS No Data Found   AMCs No Data Found   MUTUAL FUNDS No Data Found   NEWS No Data Found               Sign in   Subscribe            Home     Magazine    Cover Story   Editor's Note   Deep Dive   Interview   The Buzz      BT TV    Market Today   Easynomics   Drive Today   BT Explainer      Market Today    Indices   Trending Stocks   Stocks List   Stocks News   Share Market News   IPO Corner      Tech Today    Unbox Today   Authen Tech   Tech Deck   Tech Shorts        Money Today    Tax   Investment   Insurance   Tools & Calculator        Mutual Funds     Industry    Banking   IT   Auto   Energy   Commodities   Pharma   Real Estate   Telecom      BTShorts     Visual Stories     BT Reels     Immersives         UPSTART     ICC World Cup     Corporate     Petrol-Diesel     Weather     BT Bazaar                         BT-TR GCC Listing        events   Special   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                News MRF share price         Feedback     MRF share price                                   More Stories on MRF share price         IRCTC, RR Kabel, MRF among ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on November 17: Stock market, Bank Nifty outlook, Bharat Gaurav train launch in Mumbai Nov 17, 2023 IRCTC, RR Kabel, MRF ex-dividend stocks, PM Modi to inaugurate 2nd Voice of Global South Summit in Top News on Nov 17: Stock market, Nifty, Bharat Gaurav tourist train launch in Mumbai also in focus.          ESAF Small Finance Bank IPO to open, MRF, JSW Infra, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook Nov 03, 2023 ESAF Small Finance Bank IPO to open, MRF, JSW Infra, Zomato, IndiGo Q2 results in Top News on November 3: NTPC among ex-dividend stocks, share markets, Bank Nifty, currency outlook also in focus.          Dividend stocks today: TCS, HCL Technologies, Fortis Healthcare, MRF, 11 other stocks trading ex-dividend on July 20; check full list Jul 20, 2023 Dividend stocks today: A total of fifteen stocks including Tata Consultancy Services (TCS), HCL Technologies, MRF, Fortis Healthcare, Graphite India are trading ex-dividend today (July 20). Check the full list, record date, and more.          Reliance Industries, Infosys, HCL Technologies, HUL, TCS, others among stocks to watch on July 20, 2023 Jul 20, 2023 Stocks in focus today: Share market today would react to the weekly option expiry and results of index heavyweight Infosys and HUL. Fortis Healthcare, Reliance Industries, HCL Technologies, TCS, and MRF are amo[0m
 Thought:[32;1m[1;3m{
     "action": "Final Answer",
-    "action_input": "Here is a summary of the ratio analysis for Jaiprakash Power Ventures Ltd (JPPOWER):\n\n- Face Value (₹): 10.00\n- Beta: 1.76\n- 52-Week Low (₹): 5.15\n- 52-Week High (₹): 11.55\n- Price-to-Book (X): 1.18\n- Dividend Yield (%): 0.00\n- Price-to-Earnings (P/E) (X): 0.00\n- Earnings Per Share (₹): 0.01\n- Sector Price Earning (X): 15.00\n- Market Cap (₹ Cr.): 7,847.21\n\nPlease note that these values are as of the last close price."
+    "action_input": "I apologize, but I couldn't find the balance sheet data for MRF on the provided webpage."
 }[0m
 
 [1m> Finished chain.[0m

@@ -72,6 +72,7 @@ def gpt_format(company):
         messages=[
             {"role": "user", "content": prompt}
         ]
+
     )
     content = response['choices'][0]['message']['content']
     splitData = content.split("~")
@@ -154,6 +155,7 @@ def report_generator(company):
     # print(final_link)
 
     # memory = ConversationBufferMemory(memory_key="chat_history")
+
     agent = initialize_agent(tools= tools, llm = llm, agent ='chat-conversational-react-description', verbose = True, max_iterations=5,
         early_stopping_method='generate',
         memory=memory)
@@ -198,6 +200,8 @@ def report_generator(company):
 
     value = agent.run(f"summarize all the ration analysis in bullet form of {data} on {final_link}")
 
+    ballance_sheet = agent.run(f"Find the balance sheet of the {company} and provide all its data")
+
     output_file.close()
 
 
@@ -234,22 +238,22 @@ def initial_setup(doc, topic):
 def main_content(doc, data, company):
     # data = ['Introduction', "\nThis equity investment report provides an overview of Tata Consultancy Services (TCS), a leading Indian multinational IT services and consulting company. The report covers essential details about the company, including its background, operations, and key initiatives. It also includes current stock and investment information, along with an in-depth explanation of each statistic in the context of TCS. This report aims to provide investors with comprehensive insights into TCS's performance and potential for long-term growth.\n\n", 'Company Background and Operations', '\nTCS, a part of the Tata Group, is a major player in the global IT services industry. It operates in 150 locations across 46 countries, making it a truly multinational company. TCS offers a wide range of IT services, including software development, consulting, and business process outsourcing. With over 600,000 employees worldwide, TCS has established itself as a leader in the industry.\n\n', 'Key Initiatives and Factors Influencing Long-term Performance', "\nTCS has undertaken several key initiatives to drive its long-term performance. These include investing in emerging technologies like artificial intelligence (AI), cloud computing, and blockchain. By focusing on these areas, TCS aims to stay ahead of the curve and address evolving client needs. Additionally, TCS prioritizes innovation and R&D efforts to develop cutting-edge solutions and enhance its competitive advantage.\n\nThe company's strong client relationships and robust delivery capabilities have played a significant role in its long-term success. TCS has a diverse client base across industries, including banking, healthcare, retail, and telecommunications. This diversity helps TCS mitigate the risks associated with industry-specific fluctuations and ensures a more stable revenue stream.\n\nTCS also emphasizes skill development and talent retention as crucial factors for sustained growth. The company invests heavily in employee training and development programs to enhance its workforce's capabilities. TCS's dedication to talent management enables it to deliver high-quality services, gain client trust, and attract and retain top-tier talent.\n\nThe company's long-standing commitment to corporate social responsibility (CSR) is another aspect contributing to its long-term performance. TCS actively engages in various CSR initiatives, including education, environment, and community development programs. These initiatives not only demonstrate TCS's commitment to social welfare but also contribute to its reputation and brand image.\n\n", 'Current Stock and Investment Information', "\nTCS's stock performance is an important consideration for equity investors. As of the provided webpage, the stock price of TCS is ₹3,350.90, exhibiting a consistent upward trend over the years. The company's market capitalization is ₹12,26,111.52 Cr., making it the second-largest Indian company.\n\nKey statistical information related to TCS's performance is as follows:\n\n1. Price-to-Earnings (P/E) Ratio: The P/E ratio of TCS is 27.46. This ratio indicates the market's valuation of the company relative to its earnings. It is commonly used to assess whether a stock is overvalued or undervalued.\n\n2. Earnings Per Share (EPS): TCS has an EPS of ₹122.04, which indicates the company's profitability on a per-share basis. Investors often consider EPS to evaluate a company's financial health and growth potential.\n\n3. Dividend Yield: The dividend yield of TCS is 3.43%. This metric reflects the return on investment from dividend payments, which is particularly important for income-focused investors.\n\n4. Price-to-Book (P/B) Ratio: TCS's P/B ratio is 12.18. The P/B ratio compares a company's market value to its book value and can help investors assess whether a stock is trading at a fair value.\n\n5. Beta: TCS's beta is 0.97, indicating a relatively low level of systematic risk. This suggests that TCS's stock price is less volatile than the market average.\n\n", 'Competitors', "\nTCS faces competition from several prominent players in the IT services industry. The competitors listed on the provided webpage include Infosys, HCL Technologies, L&T Technology Services, Sonata Software, Birlasoft, Mphasis, and Wipro. It is important to consider the competitive landscape when assessing TCS's performance and potential growth prospects.\n\n", 'Conclusion', "\nTCS, as a leading IT services and consulting company, has exhibited strong performance and positioned itself as a global leader in the industry. The company's diversified client base, focus on emerging technologies, and commitment to talent development and CSR contribute to its long-term success. Investors should examine the provided stock and investment information, along with the key initiatives and factors influencing TCS's performance, to assess its investment potential. However, it is crucial to conduct further research and due diligence before making investment decisions.", 'TCS']
     data = data
-    # global symbol
-    # prompt = "I need stock symbol of "+company+". The output format must be followed and is as follows - [stock_symbol]" 
-    # response = openai.ChatCompletion.create(
-    #     model = 'gpt-3.5-turbo',
-    #     messages=[
-    #         {"role": "user", "content": prompt}
-    #     ]
-    # )
-    # symbol = response['choices'][0]['message']['content']
+    global symbol
+    prompt = "I need stock symbol of "+company+". The output format must be followed and is as follows - [stock_symbol]" 
+    response = openai.ChatCompletion.create(
+        model = 'gpt-3.5-turbo',
+        messages=[
+            {"role": "user", "content": prompt}
+        ]
+    )
+    symbol = response['choices'][0]['message']['content']
 
-    # if"[" in symbol:
-    #     st = symbol.index("[")
-    #     en = symbol.index("]")
-    #     symbol = symbol[st+1:en] + ".NS"
-    # else:
-    #     symbol = symbol.split(" ")[-1] + ".NS"
+    if"[" in symbol:
+        st = symbol.index("[")
+        en = symbol.index("]")
+        symbol = symbol[st+1:en] + ".NS"
+    else:
+        symbol = symbol.split(" ")[-1] + ".NS"
     
     data = [text.replace("\n\n", "\n") for text in data]
     graphs_list = ["graph1", "graph2"]
@@ -347,6 +351,13 @@ def graph2(symbol, doc):
 
     plt.close()
 
+
+
+def about(request):
+    return render(request,"about.html")
+
+
+
 # Create your views here.
 def home(request):
     # sleep(1)
@@ -397,8 +408,47 @@ def home(request):
 
 
 def search(request):
-    # data:{
+    if request.method == 'POST':
+        company = request.POST['company']
+        report_generator(company)
+        ans = gpt_format(company)
+        doc = docx.Document()
+        topic = "report"
+        symbol = ""
+        initial_setup(doc, company)
+        main_content(doc, ans, company)
 
-    # }
+        doc.save(topic+".docx")
+        instructions = {
+            'parts': [
+            {
+            'file': 'document'
+            }
+            ]
+            }
 
+        response = requests.request(
+        'POST',
+        'https://api.pspdfkit.com/build',
+        headers = {
+        'Authorization': 'Bearer pdf_live_LaJ5ZY4Auuz94CJ5Ch8upK0LVOzi3IPPX3T7GPB5QHX'
+        },
+        files = {
+            'document': open('/Users/prathamarora/Documents/dtu_hack/backend/report.docx', 'rb')
+        },
+        data = {
+            'instructions': json.dumps(instructions)
+        },
+        stream = True
+        )
+
+        if response.ok:
+            with open('/Users/prathamarora/Documents/dtu_hack/backend/static/assests/report.pdf', 'wb') as fd:
+                for chunk in response.iter_content(chunk_size=8096):
+                    fd.write(chunk)
+        else:
+            print(response.text)
+            exit()
+
+        return redirect('search')
     return render(request,"aftersearch.html")
