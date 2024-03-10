@@ -1,0 +1,150 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAGR</title>
+    <link rel="icon" type="image/x-icon" href="{% static './assests/title.png' %}">
+    <link rel="stylesheet" href="{% static './css/main.css' %}">
+    <link rel="stylesheet" href="{% static './css/particle.css' %}">
+    <style>
+        nav{
+    position: relative;
+}
+.sip-cont{
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    border: 1px solid white;
+    box-shadow: 3px 3px  #AA3FFF, 6px 6px 0 #4A25B3,9px 9px 0 #E5FE40;
+
+}
+.sip_form_cont{
+    width: 40%;
+}
+.sip_form{
+    flex-direction: column;
+    gap: 20px;
+}
+.form_input{
+    background: none;
+    padding: var(--padding-inline);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    box-shadow: 3px 3px  #AA3FFF, 6px 6px 0 #4A25B3,9px 9px 0 #E5FE40;
+    color: white;
+}
+.form_input:focus{
+    outline: none;
+}
+
+button{
+    padding: var(--padding-inline);
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(to right,#AA3FFF,#4A25B3,#AA3FFF,#4A25B3);
+
+}
+
+
+.output{
+    margin-top: 20px;
+    /* border: 1px solid white; */
+    padding: var(--padding-inline);
+
+}
+.output p{
+    color: white;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container navbar flex">
+            <a href="{% url 'home' %}">
+                <div class="left flex">
+                <img src="/static/assests/bglogo.png" alt="">
+                <h3 class="main-brand">INVEST<span class="color">i</span>WISE</h3>
+                </div>
+            </a>
+            <div class="right">
+                <ul class="nav-link flex">
+                    <li><a class="hover-link underline"href="{% url 'goal' %}"><i class="fa-solid fa-bullseye"></i> Goal Analyser</a></li>
+                <li><a class="hover-link underline"href="{% url 'syllabus' %}"><i class="fa-solid fa-rocket"></i>  Play & Learn</a></li>
+
+                <li><a  class="hover-link underline"href="{% url 'about' %}"><i class="fa-solid fa-user-group"></i> About us</a></li>
+                </ul>
+            </div>
+        </div>
+       </nav>
+
+       <section class="sip"></section>
+        <div class="sip-cont container flex">
+            
+            <div class="sip_form_cont">
+                <div class="sip_form flex">
+                    <input type="text" id="initialValue" class="form_input" placeholder="Enter You Initial Investment">
+                    <input type="text" id="monthlyInvestment" class="form_input" placeholder="Enter your Monthy Investment">
+                    <input type="text" id="finalValue" class="form_input" placeholder="Enter your Expected Return">
+                    <input type="text" id="years" class="form_input" placeholder="Enter period of investment">
+                    <button onclick="calculateRRR()">Calculate SIP RRoR</button>
+                    <div id="result" class="output"></div>
+                </div>
+            </div>
+        </div>
+       </section>
+       
+
+       <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+      </div>
+</body>
+<script src="https://kit.fontawesome.com/b5a8447ad3.js" crossorigin="anonymous"></script>
+<script>
+    function minimalRRR(initial, final, years) {
+    var r = Math.pow(final / initial, 1 / years) - 1;
+    return r;
+}
+
+function calFutureValue(monthlyInvestment, rateOfReturn, months, initialValue) {
+    var futureValue = initialValue;
+    for (var i = 1; i <= months; i++) {
+        futureValue += monthlyInvestment;
+        futureValue *= (1 + rateOfReturn);
+    }
+    return futureValue;
+}
+
+function calSIPrrr(initial, monthly, final, years) {
+    var l = minimalRRR(initial + (monthly * years * 12), final, years);
+    l *= 100;
+
+    while (true) {
+        var r = calFutureValue(monthly, l / 100 / 12, years * 12, 0);
+        if (r >= final) {
+            break;
+        }
+        l += 1;
+    }
+
+    var upper = l;
+    return Math.round(upper);
+}
+
+function calculateRRR() {
+    var initial = parseFloat(document.getElementById("initialValue").value);
+    var monthly = parseFloat(document.getElementById("monthlyInvestment").value);
+    var final = parseFloat(document.getElementById("finalValue").value);
+    var years = parseFloat(document.getElementById("years").value);
+
+    var result = calSIPrrr(initial, monthly, final, years);
+    document.getElementById("result").innerHTML = "<p>The required RRR is: " + result + "%</p>";
+}
+</script>
+</html>

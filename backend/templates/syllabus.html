@@ -1,0 +1,82 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive</title>
+    <link rel="icon" type="image/x-icon" href="/static/assests/title.png">
+    <link rel="stylesheet" href="{% static './css/main.css' %}">
+    <link rel="stylesheet" href="{% static './css/particle.css' %}">
+    <link rel="stylesheet" href="{% static './css/comprehensive.css' %}">
+</head>
+<body>
+    <nav>
+        <div class="container navbar flex">
+            <a href="{% url 'home' %}">
+                <div class="left flex">
+                <img src="/static/assests/bglogo.png" alt="">
+                <h3 class="main-brand">INVEST<span class="color">i</span>WISE</h3>
+                </div>
+            </a>
+            <div class="right">
+                <ul class="nav-link flex">
+                    <li><a class="hover-link underline"href="{% url 'goal' %}"><i class="fa-solid fa-bullseye"></i> Goal Analyser</a></li>
+                <li><a class="hover-link underline"href="{% url 'syllabus' %}"><i class="fa-solid fa-rocket"></i>  Play & Learn</a></li>
+
+                <li><a  class="hover-link underline"href="{% url 'about' %}"><i class="fa-solid fa-user-group"></i> About us</a></li>
+                </ul>
+            </div>
+        </div>
+       </nav>
+       <section class="ques-section">
+        <div class="main-ques-cont container">
+            <div class="ques-container flex">
+                <div class="question">Mutual Fund</div>
+                <div class="answer flex">
+                    <div class="ans"><a href="{% url 'lesson' %}">Read the lesson</a></div>
+                    <div class="ans"><a href="{% url 'gameLearn' %}">Play the game</a></div>
+                </div>
+            </div>
+            <div class="ques-container flex">
+                <div class="question">Basics of etherium</div>
+                <div class="answer flex">
+                    <div class="ans"><a href="">Read the lesson</a></div>
+                    <div class="ans"><a href="">Take test</a></div>
+                </div>
+            </div>
+
+            
+        </div>
+       </section>
+
+       <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+      </div>
+</body>
+<script src="https://kit.fontawesome.com/b5a8447ad3.js" crossorigin="anonymous"></script>
+<script>
+    const questions = document.querySelectorAll(".question");
+
+questions.forEach(question => {
+question.addEventListener("click", function() {
+    const isActive = this.classList.contains("active");
+
+    // Close all answers
+    questions.forEach(q => {
+    q.classList.remove("active");
+    q.nextElementSibling.style.display = "none";
+    });
+
+    // Open current answer if it wasn't active before
+    if (!isActive) {
+    this.classList.add("active");
+    const answer = this.nextElementSibling;
+    answer.style.display = "initial";
+    }
+});
+});
+</script>
+
+</html>
